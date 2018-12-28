@@ -10,6 +10,9 @@ import android.widget.TextView;
 import com.example.beoks.gameis.weple.DataClass.Profile;
 import com.example.beoks.gameis.weple.R;
 
+/**
+ *
+ */
 public class JoinActivityStep2 extends AppCompatActivity {
     private TextView textView;
     private EditText emailEditText;

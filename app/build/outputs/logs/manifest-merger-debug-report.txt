@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:2:1-65:12
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-65:12
 MERGED from [com.android.support:design:27.1.1] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/3f9d2db66ad163592eee915ceae7eed2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1edc497f8017d5cefd34ffc5b026ebd0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f6b70b22a51aaa8fd657534a579433d3/AndroidManifest.xml:2:1-11:12
@@ -51,29 +51,29 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/knuprime070/.gra
 MERGED from [android.arch.core:runtime:1.1.1] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/524af834f5dbcbcef18133eb9f6dc6fc/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/baa1ce8aa121422878edcc73120b3628/AndroidManifest.xml:17:1-22:12
 MERGED from [com.kakao.sdk:util:1.15.1] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/util-1.15.1.aar/82026a7b99883750f28329b6473dcc2c/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-65:12
 	package
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:3:5-45
-		INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:2:1-65:12
-		INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-65:12
+		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:2:1-65:12
-		INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-65:12
+		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:5:5-76
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:5:5-76
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:5:22-73
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:5:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:6:5-79
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a0ec221503a96dd1cb0a600930ee254/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a0ec221503a96dd1cb0a600930ee254/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-database:16.0.3] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.3.aar/196abbe7c23809bb511363be585269a9/AndroidManifest.xml:22:5-79
@@ -89,13 +89,13 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/knuprime
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/75bc7cda0b91f812089b01d049d7d17f/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/75bc7cda0b91f812089b01d049d7d17f/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:6:22-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:13:5-79
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:13:22-76
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:13:22-76
 application
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:15:5-63:19
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:15:5-63:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f6b70b22a51aaa8fd657534a579433d3/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f6b70b22a51aaa8fd657534a579433d3/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a0ec221503a96dd1cb0a600930ee254/AndroidManifest.xml:30:5-20
@@ -139,101 +139,101 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/
 MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/3dcdef6b3add3b88fd2212ffcae5bca0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/3dcdef6b3add3b88fd2212ffcae5bca0/AndroidManifest.xml:22:5-26:19
 	android:supportsRtl
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:21:9-35
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:21:9-35
 	android:label
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:19:9-41
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:19:9-41
 	android:roundIcon
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:20:9-54
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:20:9-54
 	android:icon
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:18:9-43
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:18:9-43
 	android:allowBackup
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:17:9-35
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:17:9-35
 	android:theme
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:22:9-52
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:22:9-52
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:16:9-75
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:16:9-75
 activity#com.example.beoks.gameis.weple.Activity.MainActivity
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:23:9-29:20
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:23:9-29:20
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:23:19-56
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:23:19-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:24:13-28:29
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:27:17-77
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:27:27-74
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:27:27-74
 meta-data#com.kakao.sdk.AppKey
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:31:9-33:53
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:31:9-33:53
 	android:value
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:33:13-50
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:33:13-50
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:32:13-48
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:32:13-48
 activity#com.example.beoks.gameis.weple.Activity.LoginActivity.version01.MainLoginActivity
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:35:9-88
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:35:9-88
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:35:19-85
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:35:19-85
 activity#com.example.beoks.gameis.weple.Activity.LoginActivity.version01.SignUpActivity
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:36:9-85
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:36:9-85
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:36:19-82
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:36:19-82
 activity#com.example.beoks.gameis.weple.Activity.LoginActivity.version01.UserSelectPopupActivity
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:37:9-39:47
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:37:9-39:47
 	android:theme
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:39:13-44
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:39:13-44
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:38:13-85
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:38:13-85
 activity#com.example.beoks.gameis.weple.Activity.OwnerActivity.StoreListActivity
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:40:9-78
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:40:9-78
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:40:19-75
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:40:19-75
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:49:9-51:55
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:49:9-51:55
 	android:value
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:51:13-52
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:51:13-52
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:50:13-58
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:50:13-58
 activity#com.example.beoks.gameis.weple.Activity.CustomerActivity.MapsActivity
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:53:9-55:59
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:53:9-55:59
 	android:label
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:55:13-56
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:55:13-56
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:54:13-67
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:54:13-67
 activity#com.example.beoks.gameis.weple.Activity.CustomerActivity.StoreListActivity
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:56:9-81
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:56:9-81
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:56:19-78
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:56:19-78
 activity#com.example.beoks.gameis.weple.Activity.LoginActivity.version02.MainLoginActivity02
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:57:9-90
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:57:9-90
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:57:19-87
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:57:19-87
 activity#com.example.beoks.gameis.weple.Activity.JoinActivity.JoinActivityStep1
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:58:9-77
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:58:9-77
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:58:19-74
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:58:19-74
 activity#com.example.beoks.gameis.weple.Activity.JoinActivity.JoinActivityStep2
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:59:9-77
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:59:9-77
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:59:19-74
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:59:19-74
 activity#com.example.beoks.gameis.weple.Activity.JoinActivity.JoinActivityStep3
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:60:9-77
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:60:9-77
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:60:19-74
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:60:19-74
 activity#com.example.beoks.gameis.weple.Activity.JoinActivity.JoinActivityStep4
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:61:9-77
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:61:9-77
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:61:19-74
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:61:19-74
 activity#com.example.beoks.gameis.weple.Activity.JoinActivity.JoinActivityStep5
-ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:62:9-86
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:62:9-86
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml:62:19-74
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:62:19-74
 uses-sdk
-INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
-INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:design:27.1.1] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/3f9d2db66ad163592eee915ceae7eed2/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.1] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/3f9d2db66ad163592eee915ceae7eed2/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1edc497f8017d5cefd34ffc5b026ebd0/AndroidManifest.xml:20:5-44
@@ -328,16 +328,16 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/knuprime070/.gradle/
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/baa1ce8aa121422878edcc73120b3628/AndroidManifest.xml:20:5-44
 MERGED from [com.kakao.sdk:util:1.15.1] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/util-1.15.1.aar/82026a7b99883750f28329b6473dcc2c/AndroidManifest.xml:10:5-12:41
 MERGED from [com.kakao.sdk:util:1.15.1] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/util-1.15.1.aar/82026a7b99883750f28329b6473dcc2c/AndroidManifest.xml:10:5-12:41
-INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
-INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
-		ADDED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/knuprime070/AndroidStudioProjects/Weple/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a0ec221503a96dd1cb0a600930ee254/AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-database:16.0.3] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.3.aar/196abbe7c23809bb511363be585269a9/AndroidManifest.xml:23:5-67

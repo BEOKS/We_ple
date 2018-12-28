@@ -33,13 +33,14 @@ public class JoinActivityStep1 extends AppCompatActivity {
         setContentView(R.layout.activity_join_step1);
 
         initViewinstance();
-        setTextView(getIntent().getStringExtra("type"));
+        setTextView(Data.type=getIntent().getStringExtra("type"));
         clickButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String email=emailEditText.getText().toString();
                 if(isValidEmailAddress(email)){
                     Intent intent=new Intent(getApplicationContext(),JoinActivityStep2.class);
+                    Data.email=email;
                     getIntent().getExtras().putString("email",email);
                 }
                 else{

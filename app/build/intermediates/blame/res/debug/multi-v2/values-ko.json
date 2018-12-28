@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/knuprime070/AndroidStudioProjects/Weple/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
+            "outputFile": "/Users/knuprime070/AndroidStudioProjects/We_ple/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "/Users/knuprime070/.gradle/caches/transforms-1/files-1.1/auth-1.15.1.aar/ad049c422efd33b8c958cbab18112f6b/res/values-ko/values-ko.xml",
