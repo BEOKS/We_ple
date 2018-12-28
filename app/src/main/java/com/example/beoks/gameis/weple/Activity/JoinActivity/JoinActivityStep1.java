@@ -41,7 +41,8 @@ public class JoinActivityStep1 extends AppCompatActivity {
                 if(isValidEmailAddress(email)){
                     Intent intent=new Intent(getApplicationContext(),JoinActivityStep2.class);
                     Data.email=email;
-                    getIntent().getExtras().putString("email",email);
+                    startActivity(intent);
+                    finish();
                 }
                 else{
                     Snackbar.make(textView,"이메일 형식이 올바르지 않습니다.",Snackbar.LENGTH_SHORT).show();
@@ -52,7 +53,7 @@ public class JoinActivityStep1 extends AppCompatActivity {
     }
     private void initViewinstance(){
         textView=(TextView)findViewById(R.id.textView);
-        emailEditText=(EditText)findViewById(R.id.emailEditText);
+        emailEditText=(EditText)findViewById(R.id.editText);
         clickButton=(Button)findViewById(R.id.button);
     }
     private void setTextView(String type){
