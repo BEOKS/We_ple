@@ -24,7 +24,7 @@ public class JoinActivityStep2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_join02);
+        setContentView(R.layout.activity_join_step2);
         initViewinstance();
         setTextView(Data.type);
         clickButton.setOnClickListener(new View.OnClickListener() {
@@ -43,8 +43,8 @@ public class JoinActivityStep2 extends AppCompatActivity {
         });
     }
     private void initViewinstance(){
-        textView=(TextView)findViewById(R.id.textView2);
-        editText =(EditText)findViewById(R.id.editText2);
+        textView=(TextView)findViewById(R.id.textView3);
+        editText =(EditText)findViewById(R.id.editText3);
         clickButton=(Button)findViewById(R.id.button2);
     }
     private void setTextView(String type){

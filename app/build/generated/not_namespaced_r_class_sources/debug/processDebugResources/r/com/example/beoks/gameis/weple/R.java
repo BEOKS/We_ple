@@ -4169,7 +4169,7 @@ public final class R {
     public static final int abc_search_view=0x7f0b0018;
     public static final int abc_select_dialog_material=0x7f0b0019;
     public static final int abc_tooltip=0x7f0b001a;
-    public static final int activity_join02=0x7f0b001b;
+    public static final int activity_join_step2 =0x7f0b001b;
     public static final int activity_join_step1=0x7f0b001c;
     public static final int activity_join_step3=0x7f0b001d;
     public static final int activity_join_step4=0x7f0b001e;

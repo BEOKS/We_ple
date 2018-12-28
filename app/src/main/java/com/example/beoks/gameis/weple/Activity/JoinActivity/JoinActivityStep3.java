@@ -17,7 +17,7 @@ public class JoinActivityStep3 extends AppCompatActivity {
     private TextView textView;
     private EditText editText;
     private Button clickButton;
-    private String TAG="JoinActivityStep2";
+    private String TAG="JoinActivityStep3";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,15 +34,15 @@ public class JoinActivityStep3 extends AppCompatActivity {
                     finish();
                 }
                 else{
-                    Snackbar.make(textView,"영문,숫자를 이용히여 6자리이상으로 입력해주세요",Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(textView,"비밀번호가 일치하지 않습니다.",Snackbar.LENGTH_SHORT).show();
                 }
             }
         });
     }
     private void initViewinstance(){
-        textView=(TextView)findViewById(R.id.textView);
-        editText =(EditText)findViewById(R.id.emailEditText);
-        clickButton=(Button)findViewById(R.id.button);
+        textView=(TextView)findViewById(R.id.textView3);
+        editText =(EditText)findViewById(R.id.editText3);
+        clickButton=(Button)findViewById(R.id.button3);
     }
     private void setTextView(String type){
         if(type.equals(Profile.customer)){
@@ -56,7 +56,7 @@ public class JoinActivityStep3 extends AppCompatActivity {
         }
     }
     private boolean isPwdValidate(){
-        if(Data.pwd1.length()<6){
+        if(Data.pwd1!=Data.pwd2){
             return false;
         }
         else{
