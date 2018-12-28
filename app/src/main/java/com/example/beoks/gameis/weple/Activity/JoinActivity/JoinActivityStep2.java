@@ -43,8 +43,8 @@ public class JoinActivityStep2 extends AppCompatActivity {
         });
     }
     private void initViewinstance(){
-        textView=(TextView)findViewById(R.id.textView3);
-        editText =(EditText)findViewById(R.id.editText3);
+        textView=(TextView)findViewById(R.id.textView4);
+        editText =(EditText)findViewById(R.id.editText4);
         clickButton=(Button)findViewById(R.id.button2);
     }
     private void setTextView(String type){

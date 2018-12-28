@@ -12,7 +12,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.beoks.gameis.weple.Activity.OwnerActivity.StoreListActivity;
+import com.example.beoks.gameis.weple.Activity.CustomerActivity.CustomerStoreListActivity;
+import com.example.beoks.gameis.weple.Activity.OwnerActivity.OwnerStoreListActivity;
 import com.example.beoks.gameis.weple.DataClass.GlobalData;
 import com.example.beoks.gameis.weple.DataClass.Profile;
 import com.example.beoks.gameis.weple.R;
@@ -170,11 +171,11 @@ public class MainLoginActivity extends AppCompatActivity {
 
     private void moveActivity(String type){
         if(type.equals(Profile.owner)){
-            Intent intent=new Intent(getApplicationContext(), StoreListActivity.class);
+            Intent intent=new Intent(getApplicationContext(), OwnerStoreListActivity.class);
             startActivity(intent);
         }
         else{
-            Intent intent=new Intent(getApplicationContext(),com.example.beoks.gameis.weple.Activity.CustomerActivity.StoreListActivity.class);
+            Intent intent=new Intent(getApplicationContext(),CustomerStoreListActivity.class);
             startActivity(intent);
         }
         finish();
