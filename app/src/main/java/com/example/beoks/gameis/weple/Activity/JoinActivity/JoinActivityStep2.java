@@ -21,6 +21,7 @@ public class JoinActivityStep2 extends AppCompatActivity {
     private EditText editText;
     private Button clickButton;
     private String TAG="JoinActivityStep2";
+    int d=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
