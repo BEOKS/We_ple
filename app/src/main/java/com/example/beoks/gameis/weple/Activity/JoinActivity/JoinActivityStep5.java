@@ -3,6 +3,8 @@ package com.example.beoks.gameis.weple.Activity.JoinActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.beoks.gameis.weple.R;
+
 public class JoinActivityStep5 extends AppCompatActivity {
 
     @Override

@@ -27,9 +27,9 @@ public class JoinActivityStep3 extends AppCompatActivity {
         clickButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Data.pwd1=editText.getText().toString();
+                Data.pwd2=editText.getText().toString();
                 if(isPwdValidate()){
-                    Intent intent=new Intent(getApplicationContext(),JoinActivityStep3.class);
+                    Intent intent=new Intent(getApplicationContext(),JoinActivityStep4.class);
                     startActivity(intent);
                     finish();
                 }
@@ -40,8 +40,8 @@ public class JoinActivityStep3 extends AppCompatActivity {
         });
     }
     private void initViewinstance(){
-        textView=(TextView)findViewById(R.id.textView3);
-        editText =(EditText)findViewById(R.id.editText3);
+        textView=(TextView)findViewById(R.id.textView4);
+        editText =(EditText)findViewById(R.id.editText4);
         clickButton=(Button)findViewById(R.id.button3);
     }
     private void setTextView(String type){

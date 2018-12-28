@@ -4,4 +4,5 @@ public class Data {
     public static String type;
     public static String email;
     public static String pwd1,pwd2;
+    public static String nickname;
 }
