@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import com.example.beoks.gameis.weple.R;
 
-public class StoreListActivity extends AppCompatActivity {
+public class OwnerStoreListActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
