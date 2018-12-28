@@ -59,7 +59,8 @@
         <activity android:name=".Activity.JoinActivity.JoinActivityStep2" />
         <activity android:name=".Activity.JoinActivity.JoinActivityStep3" />
         <activity android:name=".Activity.JoinActivity.JoinActivityStep4" />
-        <activity android:name=".Activity.JoinActivity.JoinActivityStep5"></activity>
+        <activity android:name=".Activity.JoinActivity.JoinActivityStep5" />
+        <activity android:name=".Activity.LoginActivity.version02.empty_activity"></activity>
     </application>
 
 </manifest>
