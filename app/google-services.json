@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "521944852265",
+    "firebase_url": "https://weple-314fc.firebaseio.com",
+    "project_id": "weple-314fc",
+    "storage_bucket": "weple-314fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521944852265:android:2878b3fa4c7ff363",
+        "android_client_info": {
+          "package_name": "com.example.beoks.gameis.weple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521944852265-jp7vjs1ashcp2ksv8injcrsm5pg0i7rc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.beoks.gameis.weple",
+            "certificate_hash": "52dfaf712f729407d8bf434a5628cef9259cdd9a"
+          }
+        },
+        {
+          "client_id": "521944852265-0es0ivv8cmdfotsgpbdtusm73p4bur9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyXvZy-tuhXFghanr4Rkb8OoZaT3PfmbQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521944852265-0es0ivv8cmdfotsgpbdtusm73p4bur9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
