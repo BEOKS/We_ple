@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.beoks.gameis.weple.R;
-
 public class empty_activity extends AppCompatActivity {
 
     @Override

@@ -86,16 +86,18 @@
 
         <ImageButton
             android:id="@+id/imageView4"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_roundedbox_login" />
+            android:background="@drawable/button_roundedbox_login"
+            android:layout_gravity="center"/>
 
         <ImageButton
             android:id="@+id/imageView3"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/button_roundedbox_join" />
+            android:background="@drawable/button_roundedbox_join"
+            android:layout_gravity="center"/>
 
         <TextView
             android:id="@+id/textView3"
