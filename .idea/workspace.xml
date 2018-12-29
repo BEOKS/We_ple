@@ -16,134 +16,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c213ff4a-22e5-4602-a846-26cf461f87ad" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/example/beoks/gameis/weple/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/button_roundedbox_ok.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/buttonroundedboxjoin.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/buttonroundedboxlogin.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/join_drawable/png/button_roundedbox_complete.png.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/join_drawable/png/button_roundedbox_next_disable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/join_drawable/png/button_roundedbox_ok.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/join_drawable/png/image_happy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c213ff4a-22e5-4602-a846-26cf461f87ad" name="Default" comment="login Layout : revise 9.png and xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/We_ple.iml" beforeDir="false" afterPath="$PROJECT_DIR$/We_ple.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/JoinActivity/JoinActivityStep2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/JoinActivity/JoinActivityStep2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/JoinActivity/JoinActivityStep3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/JoinActivity/JoinActivityStep3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/LoginActivity/version02/empty_activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/LoginActivity/version02/empty_activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/OwnerActivity/OwnerStoreListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/OwnerActivity/OwnerStoreListActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/design/Login 2/png/drawable-xhdpi/buttonroundedboxjoin.9.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/design/Login 2/png/drawable-xhdpi/buttonroundedboxjoin.9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/design/Login 2/png/drawable-xhdpi/buttonroundedboxlogin.9.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/design/Login 2/png/drawable-xhdpi/buttonroundedboxlogin.9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_empty_activity2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_empty_activity2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step3.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -194,14 +69,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_empty_activity2.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="activity_empty_activity2.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_empty_activity2.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+            <state relative-caret-position="474">
+              <caret line="95" column="48" lean-forward="true" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -216,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buttonroundedboxjoin.9.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="buttonroundedboxjoin.9.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/buttonroundedboxjoin.9.png">
           <provider selected="true" editor-type-id="ninepatcheditor">
             <state />
@@ -3269,7 +3144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545986300289</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="login Layout : revise 9.png and xml">
+      <created>1546054788088</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1546054788088</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3283,7 +3165,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-98" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32923076" />
@@ -3293,7 +3174,7 @@
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005325" side_tool="true" weight="0.3283582" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.28753993" />
+      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.28753993" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33948717" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.42487562" />
@@ -3301,7 +3182,7 @@
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2257721" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2257721" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946752" weight="0.32820514" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -3327,7 +3208,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/app" />
     </ignored-roots>
-    <MESSAGE value="make popupLayout for selecting type" />
     <MESSAGE value="update signIn, signUp and person class&#10;1. revise person to profile and constructor&#10;2. In signIn, make email login&#10;3. In signUp, make email signUp" />
     <MESSAGE value="update google login" />
     <MESSAGE value="update signup page and class" />
@@ -3352,7 +3232,8 @@
     <MESSAGE value="complete joinactivity 5" />
     <MESSAGE value="revise joinActivityStep id and complete xml 1,2,3" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="login Layout : revise 9.png and xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="login Layout : revise 9.png and xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3666,6 +3547,14 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/buttonroundedboxlogin.9.png">
+      <provider selected="true" editor-type-id="ninepatcheditor">
+        <state />
+      </provider>
+      <provider editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/button_roundedbox_ok.9.png">
       <provider selected="true" editor-type-id="ninepatcheditor">
         <state />
@@ -3674,7 +3563,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/buttonroundedboxlogin.9.png">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/buttonroundedboxjoin.9.png">
       <provider selected="true" editor-type-id="ninepatcheditor">
         <state />
       </provider>
@@ -3687,17 +3576,9 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+        <state relative-caret-position="474">
+          <caret line="95" column="48" lean-forward="true" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/buttonroundedboxjoin.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-      <provider editor-type-id="images">
-        <state />
       </provider>
     </entry>
   </component>
