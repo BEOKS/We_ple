@@ -17,16 +17,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c213ff4a-22e5-4602-a846-26cf461f87ad" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/button_roundedbox_ok.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/join_drawable/png/button_roundedbox_complete.png.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/join_drawable/png/button_roundedbox_next_disable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/join_drawable/png/button_roundedbox_ok.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/join_drawable/png/image_happy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/We_ple.iml" beforeDir="false" afterPath="$PROJECT_DIR$/We_ple.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/JoinActivity/JoinActivityStep2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/JoinActivity/JoinActivityStep2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/design/Login 2/png/drawable-xhdpi/buttonroundedboxjoin.9.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/design/Login 2/png/drawable-xhdpi/buttonroundedboxjoin.9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v21/button_roundedbox_ok.9.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/button_roundedbox_ok.9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step2.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JoinActivityStep2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JoinActivityStep2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/JoinActivity/JoinActivityStep2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="285">
+              <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -94,8 +88,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="button_roundedbox_complete.png.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/join_drawable/png/button_roundedbox_complete.png.png">
+      <file leaf-file-name="activity_join_step2.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_join_step2.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" column="41" lean-forward="true" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buttonroundedboxjoin.9.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/design/Login 2/png/drawable-xhdpi/buttonroundedboxjoin.9.png">
+          <provider selected="true" editor-type-id="ninepatcheditor">
+            <state />
+          </provider>
+          <provider editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/design/Join/사장님/List.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -105,30 +121,6 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/join_drawable/png/button_roundedbox_next_disable.png">
           <provider selected="true" editor-type-id="images">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_join_step2.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_join_step2.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="33" selection-end-line="52" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_join_step3.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_join_step3.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-            </state>
           </provider>
         </entry>
       </file>
@@ -2489,10 +2481,10 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/JoinActivity/JoinActivityStep1.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/JoinActivity/JoinActivityStep3.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step3.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/JoinActivity/JoinActivityStep2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_join_step2.xml" />
       </list>
     </option>
   </component>
@@ -2661,7 +2653,41 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="Join" type="462c0819:PsiDirectoryNode" />
+              <item name="사장님" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="We_ple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="We_ple" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="Login 2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="We_ple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="We_ple" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="Login 2" type="462c0819:PsiDirectoryNode" />
+              <item name="png" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="We_ple" type="b2602c69:ProjectViewProjectNode" />
+              <item name="We_ple" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="Login 2" type="462c0819:PsiDirectoryNode" />
+              <item name="png" type="462c0819:PsiDirectoryNode" />
+              <item name="drawable-xhdpi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="We_ple" type="b2602c69:ProjectViewProjectNode" />
@@ -3079,7 +3105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545985023896</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="test">
+      <created>1545986300288</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1545986300289</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3093,7 +3126,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32923076" />
@@ -3103,7 +3135,7 @@
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005325" side_tool="true" weight="0.3283582" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.32967034" />
+      <window_info anchor="right" id="Preview" order="4" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33948717" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.4379487" />
@@ -3137,7 +3169,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/app" />
     </ignored-roots>
-    <MESSAGE value="MainLoginActivity : connect view instance" />
     <MESSAGE value="make popupLayout for selecting type" />
     <MESSAGE value="update signIn, signUp and person class&#10;1. revise person to profile and constructor&#10;2. In signIn, make email login&#10;3. In signUp, make email signUp" />
     <MESSAGE value="update google login" />
@@ -3162,7 +3193,8 @@
     <MESSAGE value="complete joinactivity 4" />
     <MESSAGE value="complete joinactivity 5" />
     <MESSAGE value="revise joinActivityStep id and complete xml 1,2,3" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3170,13 +3202,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/LoginActivity/version01/SignUpActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/design/Login 2/png/button_roundedBox_Login.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -3314,11 +3339,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/design/Join/사장님/List.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/OwnerActivity/OwnerStoreListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -3434,21 +3454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/design/Login 2/사장님.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_join_step2.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="33" selection-end-line="52" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/join_drawable/png/button_roundedbox_complete.png.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -3456,6 +3461,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/join_drawable/png/button_roundedbox_next_disable.png">
       <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/ic_menu_gallery.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/JoinActivity/JoinActivityStep2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/design/Login 2/사장님.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/design/Login 2/png/drawable-xhdpi/buttonroundedboxjoin.9.png">
+      <provider selected="true" editor-type-id="ninepatcheditor">
+        <state />
+      </provider>
+      <provider editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/design/Join/사장님/List.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/ic_menu_camera.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state />
       </provider>
     </entry>
@@ -3477,20 +3517,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/ic_menu_camera.xml">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_join_step2.xml">
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v21/ic_menu_gallery.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/Activity/JoinActivity/JoinActivityStep2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="660">
+          <caret line="44" column="41" lean-forward="true" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
         </state>
       </provider>
     </entry>
