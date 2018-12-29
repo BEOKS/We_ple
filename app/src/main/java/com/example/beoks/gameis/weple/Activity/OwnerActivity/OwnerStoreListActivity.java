@@ -5,6 +5,10 @@ import android.os.Bundle;
 
 import com.example.beoks.gameis.weple.R;
 
+/**
+ * 디자인 : design/Join/사장님/ 파일들 참고
+ *
+ */
 public class OwnerStoreListActivity extends AppCompatActivity {
 
     @Override

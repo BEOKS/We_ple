@@ -40,8 +40,8 @@ public class JoinActivityStep3 extends AppCompatActivity {
         });
     }
     private void initViewinstance(){
-        textView=(TextView)findViewById(R.id.textView4);
-        editText =(EditText)findViewById(R.id.editText4);
+        textView=(TextView)findViewById(R.id.textView3);
+        editText =(EditText)findViewById(R.id.editText3);
         clickButton=(Button)findViewById(R.id.button3);
     }
     private void setTextView(String type){

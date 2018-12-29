@@ -55,12 +55,20 @@
             android:label="@string/title_activity_maps" />
         <activity android:name=".Activity.CustomerActivity.CustomerStoreListActivity" />
         <activity android:name=".Activity.LoginActivity.version02.MainLoginActivity02" />
+<<<<<<< HEAD
         <activity android:name=".Activity.JoinActivity.JoinActivityStep1" />
         <activity android:name=".Activity.JoinActivity.JoinActivityStep2" />
         <activity android:name=".Activity.JoinActivity.JoinActivityStep3" />
         <activity android:name=".Activity.JoinActivity.JoinActivityStep4" />
         <activity android:name=".Activity.JoinActivity.JoinActivityStep5" />
         <activity android:name=".Activity.LoginActivity.version02.empty_activity"></activity>
+=======
+        <activity android:name=".Activity.JoinActivity.JoinActivityStep1" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name=".Activity.JoinActivity.JoinActivityStep2" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name=".Activity.JoinActivity.JoinActivityStep3" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name=".Activity.JoinActivity.JoinActivityStep4" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name=".Activity.JoinActivity.JoinActivityStep5"></activity>
+>>>>>>> master
     </application>
 
 </manifest>

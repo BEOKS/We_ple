@@ -21,6 +21,7 @@ public class JoinActivityStep2 extends AppCompatActivity {
     private EditText editText;
     private Button clickButton;
     private String TAG="JoinActivityStep2";
+    int d=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,8 +44,8 @@ public class JoinActivityStep2 extends AppCompatActivity {
         });
     }
     private void initViewinstance(){
-        textView=(TextView)findViewById(R.id.textView4);
-        editText =(EditText)findViewById(R.id.editText4);
+        textView=(TextView)findViewById(R.id.textView124124);
+        editText =(EditText)findViewById(R.id.editText2);
         clickButton=(Button)findViewById(R.id.button2);
     }
     private void setTextView(String type){
