@@ -887,6 +887,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable popup_background
 drawable selector_login_button
 drawable side_nav_bar
 drawable story
@@ -1005,12 +1006,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageView
-id imageView2
-id imageView3
-id imageView4
 id imageView5
-id imageView6
 id info
 id invisible
 id italic
@@ -1035,6 +1031,13 @@ id login_method_icon
 id login_method_layout
 id login_method_text
 id login_title_text
+id loginmain_emailEditText
+id loginmain_googleLoginButton
+id loginmain_kakaoLoginButton
+id loginmain_loginButton
+id loginmain_pwdEditText
+id loginmain_signUpButton
+id loginmain_typeButton
 id map
 id masked
 id media_actions

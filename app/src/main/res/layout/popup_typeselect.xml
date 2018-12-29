@@ -2,16 +2,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/popup_background">
     <Button
         android:id="@+id/ownerButton"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="사장님 로그인"/>
+        android:text="사장님 로그인"
+        android:textColor="#000"
+        android:background="#fff"/>
     <Button
         android:id="@+id/customerButton"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="사용자 로그인"/>
+        android:text="사용자 로그인"
+        android:textColor="#000"
+        android:background="#fff"
+        />
 
 </LinearLayout>

@@ -1524,10 +1524,6 @@
         "source": "/Users/knuprime070/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1edc497f8017d5cefd34ffc5b026ebd0/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/Users/knuprime070/AndroidStudioProjects/We_ple/app/build/intermediates/res/merged/debug/drawable_button_roundedbox_login.png.flat",
-        "source": "/Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/res/drawable/button_roundedbox_login.png"
-    },
-    {
         "merged": "/Users/knuprime070/AndroidStudioProjects/We_ple/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "/Users/knuprime070/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1edc497f8017d5cefd34ffc5b026ebd0/res/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
@@ -1650,6 +1646,10 @@
     {
         "merged": "/Users/knuprime070/AndroidStudioProjects/We_ple/app/build/intermediates/res/merged/debug/drawable_kakao_login_bar.png.flat",
         "source": "/Users/knuprime070/.gradle/caches/transforms-1/files-1.1/util-1.15.1.aar/82026a7b99883750f28329b6473dcc2c/res/drawable/kakao_login_bar.png"
+    },
+    {
+        "merged": "/Users/knuprime070/AndroidStudioProjects/We_ple/app/build/intermediates/res/merged/debug/drawable_popup_background.xml.flat",
+        "source": "/Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/res/drawable/popup_background.xml"
     },
     {
         "merged": "/Users/knuprime070/AndroidStudioProjects/We_ple/app/build/intermediates/res/merged/debug/drawable_selector_login_button.xml.flat",
@@ -2178,6 +2178,10 @@
     {
         "merged": "/Users/knuprime070/AndroidStudioProjects/We_ple/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/Users/knuprime070/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1edc497f8017d5cefd34ffc5b026ebd0/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/knuprime070/AndroidStudioProjects/We_ple/app/build/intermediates/res/merged/debug/drawable_button_roundedbox_login.9.png.flat",
+        "source": "/Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/res/drawable/button_roundedbox_login.9.png"
     },
     {
         "merged": "/Users/knuprime070/AndroidStudioProjects/We_ple/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_keyboard_arrow_down_black_24dp.png.flat",

@@ -26,7 +26,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="비밀번호 확인"
-        android:inputType="textEmailAddress"
+        android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView124124" />
 
@@ -34,9 +34,9 @@
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="확인"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/button_roundedbox_ok"/>
 
     <TextView
         android:id="@+id/textView124124"

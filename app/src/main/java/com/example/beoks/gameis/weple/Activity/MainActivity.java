@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.example.beoks.gameis.weple.Activity.LoginActivity.version01.MainLoginActivity;
-import com.example.beoks.gameis.weple.Activity.LoginActivity.version02.MainLoginActivity02;
+import com.example.beoks.gameis.weple.Activity.LoginActivity.version02.LoginMainActivity;
 import com.example.beoks.gameis.weple.R;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else{
             //move to loginActivity
-            Intent intent=new Intent(this,MainLoginActivity02.class);
+            Intent intent=new Intent(this,LoginMainActivity.class);
             startActivity(intent);
             finish();
         }

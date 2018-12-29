@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.LoginActivity.version02.empty_activity">
+    tools:context=".Activity.LoginActivity.version02.LoginMainActivity"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="#fff">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,16 +22,16 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/typeTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="right"
-                android:text="사장님" />
+                android:text="로그인 타입을 선택해주세요" />
 
-            <ImageButton
-                android:id="@+id/imageView6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <Button
+                android:id="@+id/loginmain_typeButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:background="@drawable/ic_keyboard_arrow_down_black_24dp" />
 
         </LinearLayout>
@@ -58,12 +60,12 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/editText3"
-                android:layout_width="352dp"
-                android:layout_height="wrap_content"
+                android:id="@+id/loginmain_emailEditText"
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
                 android:ems="10"
                 android:hint="이메일 주소"
-                android:inputType="textPersonName" />
+                android:inputType="textEmailAddress" />
 
         </LinearLayout>
 
@@ -75,24 +77,24 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/editText4"
-                android:layout_width="352dp"
+                android:id="@+id/loginmain_pwdEditText"
+                android:layout_width="330dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:hint="비밀번호"
-                android:inputType="textPersonName" />
+                android:inputType="textPassword" />
 
         </LinearLayout>
 
-        <ImageButton
-            android:id="@+id/imageView4"
+        <Button
+            android:id="@+id/loginmain_loginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/button_roundedbox_login"
             android:layout_gravity="center"/>
 
-        <ImageButton
-            android:id="@+id/imageView3"
+        <Button
+            android:id="@+id/loginmain_signUpButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -109,25 +111,35 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="89dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
             android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/imageView"
+            <Button
+                android:id="@+id/loginmain_kakaoLoginButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="-20dp"
-                android:layout_weight="1"
-                android:src="@drawable/button_snslogin_kakaotalk" />
+                android:background="@drawable/button_snslogin_kakaotalk"
+                android:gravity="right"/>
 
-            <ImageView
-                android:id="@+id/imageView2"
+            <Button
+                android:id="@+id/loginmain_googleLoginButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="-20dp"
-                android:layout_weight="1"
-                android:src="@drawable/button_snslogin_google" />
+                android:background="@drawable/button_snslogin_google"
+                />
+
         </LinearLayout>
     </LinearLayout>
+    <com.kakao.usermgmt.LoginButton
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/com_kakao_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
 
 </android.support.constraint.ConstraintLayout>

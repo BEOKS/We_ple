@@ -56,11 +56,11 @@ public class JoinActivityStep3 extends AppCompatActivity {
         }
     }
     private boolean isPwdValidate(){
-        if(Data.pwd1!=Data.pwd2){
-            return false;
+        if(Data.pwd1.equals(Data.pwd2)){
+            return true;
         }
         else{
-            return true;
+            return false;
         }
     }
 }
