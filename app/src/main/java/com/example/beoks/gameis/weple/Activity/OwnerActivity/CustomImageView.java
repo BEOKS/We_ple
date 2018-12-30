@@ -5,9 +5,8 @@ import android.graphics.Canvas;
 import android.graphics.Path;
 import android.graphics.RectF;
 import android.util.AttributeSet;
-import android.widget.ImageView;
 
-public class CustomImageView extends ImageView {
+public class CustomImageView extends android.support.v7.widget.AppCompatImageView {
 
     public static float radius = 18.0f;
 
