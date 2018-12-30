@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-73:12
-INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-73:12
-INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-73:12
-INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-73:12
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-74:12
 MERGED from [com.android.support:design:27.1.1] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/3f9d2db66ad163592eee915ceae7eed2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1edc497f8017d5cefd34ffc5b026ebd0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f6b70b22a51aaa8fd657534a579433d3/AndroidManifest.xml:2:1-11:12
@@ -51,20 +51,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/knuprime070/.gra
 MERGED from [android.arch.core:runtime:1.1.1] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/524af834f5dbcbcef18133eb9f6dc6fc/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/baa1ce8aa121422878edcc73120b3628/AndroidManifest.xml:17:1-22:12
 MERGED from [com.kakao.sdk:util:1.15.1] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/util-1.15.1.aar/82026a7b99883750f28329b6473dcc2c/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-73:12
-INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-73:12
-INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-74:12
 	package
 		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
-		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-73:12
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-74:12
 		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
-		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-73:12
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:1-74:12
 		INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:2:11-69
@@ -95,7 +95,7 @@ ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidM
 	android:name
 		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:13:22-76
 application
-ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:15:5-71:19
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:15:5-72:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f6b70b22a51aaa8fd657534a579433d3/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/f6b70b22a51aaa8fd657534a579433d3/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/knuprime070/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/2a0ec221503a96dd1cb0a600930ee254/AndroidManifest.xml:30:5-20
@@ -238,6 +238,10 @@ activity#com.example.beoks.gameis.weple.Activity.LoginActivity.version02.LoginMa
 ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:70:9-88
 	android:name
 		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:70:19-85
+activity#com.example.beoks.gameis.weple.Activity.OwnerActivity.AuthStoreActivity
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:71:9-87
+	android:name
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:71:19-75
 uses-sdk
 INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml

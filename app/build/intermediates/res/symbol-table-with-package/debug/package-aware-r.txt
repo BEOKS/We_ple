@@ -820,6 +820,7 @@ drawable asset_logotype
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_x
+drawable button_arrow_black
 drawable button_roundedbox_join
 drawable button_roundedbox_login
 drawable button_roundedbox_ok
@@ -853,6 +854,7 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_add_black_24dp
+drawable ic_arrow_back_black_24dp
 drawable ic_keyboard_arrow_down_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -959,9 +961,11 @@ id container
 id contentPanel
 id coordinator
 id custom
+id customImageView
 id customPanel
 id customerButton
 id dark
+id dateTextView
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -993,11 +997,16 @@ id fill_vertical
 id fixed
 id foodButton
 id forever
+id gestureView
 id ghost_view
 id gone
 id googleLoginButton
 id groups
 id guideline
+id guideline2
+id guideline3
+id guideline5
+id guideline6
 id home
 id homeAsUp
 id hybrid
@@ -1117,7 +1126,12 @@ id src_in
 id src_over
 id standard
 id start
+id statusTextView
 id status_bar_latest_event_content
+id storeList_add_new_loc
+id storeList_backButton
+id storeList_linearlayout
+id storeNameTextView
 id submenuarrow
 id submit_area
 id tabMode
@@ -1135,6 +1149,7 @@ id textView321
 id textView4
 id textView45
 id textView5
+id textView6
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1200,6 +1215,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_auth_store
 layout activity_empty_activity
 layout activity_join_step1
 layout activity_join_step2
@@ -1214,6 +1230,7 @@ layout activity_maps
 layout activity_sign_up
 layout activity_store_list
 layout activity_store_list2
+layout activity_store_list_store_format
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

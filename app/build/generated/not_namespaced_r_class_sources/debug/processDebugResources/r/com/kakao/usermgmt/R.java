@@ -79,33 +79,33 @@ public final class R {
 
         public static final int account = 0x7f08005a;
         public static final int btn_x = 0x7f08005e;
-        public static final int kakao_account_button_background = 0x7f080089;
-        public static final int kakao_account_logo = 0x7f08008a;
-        public static final int kakao_cancel_button_background = 0x7f08008b;
-        public static final int kakao_default_profile_image = 0x7f08008c;
-        public static final int kakao_editable_profile = 0x7f08008d;
-        public static final int kakao_login_bar = 0x7f08008e;
-        public static final int kakao_login_button_background = 0x7f08008f;
-        public static final int kakao_login_symbol = 0x7f080090;
-        public static final int kakao_profile_boxbg = 0x7f080091;
-        public static final int kakaoaccount_icon = 0x7f080092;
-        public static final int kakaostory_icon = 0x7f080093;
-        public static final int kakaotalk_icon = 0x7f080094;
-        public static final int notification_action_background = 0x7f080096;
-        public static final int notification_bg = 0x7f080097;
-        public static final int notification_bg_low = 0x7f080098;
-        public static final int notification_bg_low_normal = 0x7f080099;
-        public static final int notification_bg_low_pressed = 0x7f08009a;
-        public static final int notification_bg_normal = 0x7f08009b;
-        public static final int notification_bg_normal_pressed = 0x7f08009c;
-        public static final int notification_icon_background = 0x7f08009d;
-        public static final int notification_template_icon_bg = 0x7f08009e;
-        public static final int notification_template_icon_low_bg = 0x7f08009f;
-        public static final int notification_tile_bg = 0x7f0800a0;
-        public static final int notify_panel_notification_icon_bg = 0x7f0800a1;
-        public static final int selector_login_button = 0x7f0800a3;
-        public static final int story = 0x7f0800a5;
-        public static final int talk = 0x7f0800a6;
+        public static final int kakao_account_button_background = 0x7f08008b;
+        public static final int kakao_account_logo = 0x7f08008c;
+        public static final int kakao_cancel_button_background = 0x7f08008d;
+        public static final int kakao_default_profile_image = 0x7f08008e;
+        public static final int kakao_editable_profile = 0x7f08008f;
+        public static final int kakao_login_bar = 0x7f080090;
+        public static final int kakao_login_button_background = 0x7f080091;
+        public static final int kakao_login_symbol = 0x7f080092;
+        public static final int kakao_profile_boxbg = 0x7f080093;
+        public static final int kakaoaccount_icon = 0x7f080094;
+        public static final int kakaostory_icon = 0x7f080095;
+        public static final int kakaotalk_icon = 0x7f080096;
+        public static final int notification_action_background = 0x7f080098;
+        public static final int notification_bg = 0x7f080099;
+        public static final int notification_bg_low = 0x7f08009a;
+        public static final int notification_bg_low_normal = 0x7f08009b;
+        public static final int notification_bg_low_pressed = 0x7f08009c;
+        public static final int notification_bg_normal = 0x7f08009d;
+        public static final int notification_bg_normal_pressed = 0x7f08009e;
+        public static final int notification_icon_background = 0x7f08009f;
+        public static final int notification_template_icon_bg = 0x7f0800a0;
+        public static final int notification_template_icon_low_bg = 0x7f0800a1;
+        public static final int notification_tile_bg = 0x7f0800a2;
+        public static final int notify_panel_notification_icon_bg = 0x7f0800a3;
+        public static final int selector_login_button = 0x7f0800a5;
+        public static final int story = 0x7f0800a7;
+        public static final int talk = 0x7f0800a8;
     }
     public static final class id {
         private id() {}
@@ -118,33 +118,33 @@ public final class R {
         public static final int async = 0x7f090023;
         public static final int blocking = 0x7f090028;
         public static final int chronometer = 0x7f090038;
-        public static final int forever = 0x7f090062;
-        public static final int icon = 0x7f09006b;
-        public static final int icon_group = 0x7f09006c;
-        public static final int info = 0x7f090071;
-        public static final int italic = 0x7f090073;
-        public static final int line1 = 0x7f09007a;
-        public static final int line3 = 0x7f09007b;
-        public static final int login_close_button = 0x7f090082;
-        public static final int login_close_layout = 0x7f090083;
-        public static final int login_list_view = 0x7f090084;
-        public static final int login_method_icon = 0x7f090085;
-        public static final int login_method_layout = 0x7f090086;
-        public static final int login_method_text = 0x7f090087;
-        public static final int login_title_text = 0x7f090088;
-        public static final int normal = 0x7f0900a2;
-        public static final int notification_background = 0x7f0900a3;
-        public static final int notification_main_column = 0x7f0900a4;
-        public static final int notification_main_column_container = 0x7f0900a5;
-        public static final int progress_bar = 0x7f0900ae;
-        public static final int right_icon = 0x7f0900b5;
-        public static final int right_side = 0x7f0900b6;
-        public static final int tag_transition_group = 0x7f0900e3;
-        public static final int text = 0x7f0900e5;
-        public static final int text2 = 0x7f0900e6;
-        public static final int time = 0x7f0900f4;
-        public static final int title = 0x7f0900f5;
-        public static final int webview = 0x7f090107;
+        public static final int forever = 0x7f090064;
+        public static final int icon = 0x7f090072;
+        public static final int icon_group = 0x7f090073;
+        public static final int info = 0x7f090078;
+        public static final int italic = 0x7f09007a;
+        public static final int line1 = 0x7f090081;
+        public static final int line3 = 0x7f090082;
+        public static final int login_close_button = 0x7f090089;
+        public static final int login_close_layout = 0x7f09008a;
+        public static final int login_list_view = 0x7f09008b;
+        public static final int login_method_icon = 0x7f09008c;
+        public static final int login_method_layout = 0x7f09008d;
+        public static final int login_method_text = 0x7f09008e;
+        public static final int login_title_text = 0x7f09008f;
+        public static final int normal = 0x7f0900a9;
+        public static final int notification_background = 0x7f0900aa;
+        public static final int notification_main_column = 0x7f0900ab;
+        public static final int notification_main_column_container = 0x7f0900ac;
+        public static final int progress_bar = 0x7f0900b5;
+        public static final int right_icon = 0x7f0900bc;
+        public static final int right_side = 0x7f0900bd;
+        public static final int tag_transition_group = 0x7f0900ef;
+        public static final int text = 0x7f0900f1;
+        public static final int text2 = 0x7f0900f2;
+        public static final int time = 0x7f090101;
+        public static final int title = 0x7f090102;
+        public static final int webview = 0x7f090114;
     }
     public static final class integer {
         private integer() {}
@@ -154,16 +154,16 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int activity_kakao_webview = 0x7f0b0021;
-        public static final int kakao_login_layout = 0x7f0b0037;
-        public static final int layout_login_dialog = 0x7f0b0038;
-        public static final int layout_login_item = 0x7f0b0039;
-        public static final int notification_action = 0x7f0b003a;
-        public static final int notification_action_tombstone = 0x7f0b003b;
-        public static final int notification_template_custom_big = 0x7f0b0042;
-        public static final int notification_template_icon_group = 0x7f0b0043;
-        public static final int notification_template_part_chronometer = 0x7f0b0047;
-        public static final int notification_template_part_time = 0x7f0b0048;
+        public static final int activity_kakao_webview = 0x7f0b0022;
+        public static final int kakao_login_layout = 0x7f0b0039;
+        public static final int layout_login_dialog = 0x7f0b003a;
+        public static final int layout_login_item = 0x7f0b003b;
+        public static final int notification_action = 0x7f0b003c;
+        public static final int notification_action_tombstone = 0x7f0b003d;
+        public static final int notification_template_custom_big = 0x7f0b0044;
+        public static final int notification_template_icon_group = 0x7f0b0045;
+        public static final int notification_template_part_chronometer = 0x7f0b0049;
+        public static final int notification_template_part_time = 0x7f0b004a;
     }
     public static final class string {
         private string() {}
