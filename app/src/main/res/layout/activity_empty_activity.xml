@@ -23,49 +23,65 @@
     tools:context=".Activity.LoginActivity.version02.LoginMainActivity"
     >
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <android.support.constraint.Guideline
+        android:id="@+id/loginmain_gd_top"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/loginmain_gd_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="66dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="@id/loginmain_gd_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/typeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="로그인 타입을 선택해주세요" />
+
+        <Button
+            android:id="@+id/loginmain_typeButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_keyboard_arrow_down_black_24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
         android:orientation="vertical"
-        android:background="#fff">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="50dp"
-            android:layout_marginTop="15dp"
-            android:gravity="center_vertical|center_horizontal"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/typeTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="right"
-                android:text="로그인 타입을 선택해주세요" />
-
-            <Button
-                android:id="@+id/loginmain_typeButton"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:background="@drawable/ic_keyboard_arrow_down_black_24dp" />
-
-        </LinearLayout>
+        app:layout_constraintTop_toTopOf="@id/loginmain_gd_mid"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="159dp"
+            android:layout_height="58dp"
             android:layout_marginBottom="15dp"
-            android:layout_marginLeft="30dp"
             android:src="@drawable/asset_logotype" />
 
         <TextView
             android:id="@+id/textView45"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:layout_marginLeft="30dp"
             android:text="위플 사용을 위해 로그인 해 주세요."
             android:textSize="17sp" />
 
@@ -105,22 +121,23 @@
             android:id="@+id/loginmain_loginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_roundedbox_login"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:layout_marginBottom="-10dp"
+            android:background="@drawable/button_roundedbox_login" />
 
         <Button
             android:id="@+id/loginmain_signUpButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/button_roundedbox_join"
-            android:layout_gravity="center"/>
+            android:layout_marginTop="-10dp"
+            android:background="@drawable/button_roundedbox_join" />
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
             android:text="SNS 간편 로그인"
             android:textSize="20sp" />
 
@@ -135,14 +152,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_snslogin_kakaotalk"
-                android:gravity="right"/>
+                android:gravity="right" />
 
             <Button
                 android:id="@+id/loginmain_googleLoginButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/button_snslogin_google"
-                />
+                android:background="@drawable/button_snslogin_google" />
 
         </LinearLayout>
     </LinearLayout>
