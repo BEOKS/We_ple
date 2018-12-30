@@ -17,3 +17,4 @@ public class OwnerStoreListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_store_list);
     }
 }
+

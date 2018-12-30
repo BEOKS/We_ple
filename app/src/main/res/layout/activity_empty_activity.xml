@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--TODO for gowls4023-->
+
+<!--만드시느라 수고하셨습니다. 그런데 리니어 레이아웃으로 만 쓰면 로고나 다른 텍스트뷰의-->
+<!--위치가 달라지는 문제가 생깁니다. Device for preview를 통해 여러가지 기종으로 바꿔 보시면-->
+<!--무슨 문제인지 아실거라 생각합니다.-->
+
+<!--이번에 요구에 드릴 사항은 constraintLayout과 guideline을 사용해서 위플 로고와 텍스트들이-->
+<!--왼쪽으로 삐져 나와있는 점을 수정해주시길 바랍니다. 기본적인 사용법은-->
+<!--https://academy.realm.io/kr/posts/constraintlayout-it-can-do-what-now/-->
+<!--를 참조해주시고 모르는 부분이 있으시다면 연락주세요-->
+
+<!--constraintLayout과 guideLine에 대해서 다룰줄 아신다면 다른 레이아웃을 제작할때도 수월해 지실 거에요-->
+
+<!--이번에는 다른 파일은 수정하지 마시고 이 xml파일을 수정후 master branch에 커밋해주세요-->
+
+<!--#주의 각 뷰의 아이디는 수정하시면 안됩니다.-->
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -63,7 +79,6 @@
                 android:id="@+id/loginmain_emailEditText"
                 android:layout_width="330dp"
                 android:layout_height="match_parent"
-                android:ems="10"
                 android:hint="이메일 주소"
                 android:inputType="textEmailAddress" />
 
