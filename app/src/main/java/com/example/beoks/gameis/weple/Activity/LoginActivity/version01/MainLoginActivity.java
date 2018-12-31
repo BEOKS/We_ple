@@ -13,7 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.beoks.gameis.weple.Activity.CustomerActivity.CustomerStoreListActivity;
-import com.example.beoks.gameis.weple.Activity.OwnerActivity.OwnerStoreListActivity;
+import com.example.beoks.gameis.weple.Activity.OwnerActivity.StoreList.OwnerStoreListActivity;
 import com.example.beoks.gameis.weple.DataClass.GlobalData;
 import com.example.beoks.gameis.weple.DataClass.Profile;
 import com.example.beoks.gameis.weple.R;
@@ -87,7 +87,7 @@ public class MainLoginActivity extends AppCompatActivity {
 
         //check login
         if(mAuth.getCurrentUser()!=null){ // already login
-            firebaseDatabase.getReference("Profile").child(FirebaseAuth.getInstance().getUid()).child(Profile.type).addListenerForSingleValueEvent(new ValueEventListener() {
+            firebaseDatabase.getReference("Profile").child(FirebaseAuth.getInstance().getUid()).child("type").addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                     String type=(String)dataSnapshot.getValue();
@@ -170,7 +170,7 @@ public class MainLoginActivity extends AppCompatActivity {
     }
 
     private void moveActivity(String type){
-        if(type.equals(Profile.owner)){
+        if(type.equals("owner")){
             Intent intent=new Intent(getApplicationContext(), OwnerStoreListActivity.class);
             startActivity(intent);
         }

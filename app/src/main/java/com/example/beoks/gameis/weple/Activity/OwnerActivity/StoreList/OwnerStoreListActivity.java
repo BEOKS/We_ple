@@ -1,4 +1,4 @@
-package com.example.beoks.gameis.weple.Activity.OwnerActivity;
+package com.example.beoks.gameis.weple.Activity.OwnerActivity.StoreList;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.example.beoks.gameis.weple.Activity.OwnerActivity.AuthStoreActivity;
 import com.example.beoks.gameis.weple.R;
 
 /**
@@ -27,6 +28,7 @@ public class OwnerStoreListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_store_list);
         initView();
+
     }
     private void initView(){
         backButton=(Button)findViewById(R.id.storeList_backButton);

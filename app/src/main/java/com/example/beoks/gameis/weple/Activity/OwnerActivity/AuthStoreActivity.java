@@ -52,6 +52,9 @@ public class AuthStoreActivity extends AppCompatActivity {
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         dialog.cancel();
                         if(dataSnapshot.exists()){
+                            /**
+                             * 인증코드는 항상 영문+숫자
+                             */
                             if(((String)dataSnapshot.getValue()).equals("가게 이름")){
                                 Toast.makeText(getApplicationContext(),"개발자의 테스트용",Toast.LENGTH_SHORT).show();
                             }

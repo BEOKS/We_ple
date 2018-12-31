@@ -12,7 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.beoks.gameis.weple.Activity.CustomerActivity.CustomerStoreListActivity;
-import com.example.beoks.gameis.weple.Activity.OwnerActivity.OwnerStoreListActivity;
+import com.example.beoks.gameis.weple.Activity.OwnerActivity.StoreList.OwnerStoreListActivity;
 import com.example.beoks.gameis.weple.DataClass.GlobalData;
 import com.example.beoks.gameis.weple.DataClass.Profile;
 import com.example.beoks.gameis.weple.R;
@@ -37,7 +37,7 @@ public class SignUpActivity extends AppCompatActivity {
     private TextView typeTextView;
 
     private String TAG="SignUpActivity";
-    public static final String owner="사장님",customer="사용자";
+    public static final String owner="owner",customer="customer";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,7 +84,7 @@ public class SignUpActivity extends AppCompatActivity {
     }
 
     private void moveActivity(String type){
-        if(type.equals(Profile.owner)){
+        if(type.equals("owner")){
             Intent intent=new Intent(getApplicationContext(), OwnerStoreListActivity.class);
             startActivity(intent);
         }

@@ -54,7 +54,7 @@
         <activity
             android:name="com.example.beoks.gameis.weple.Activity.LoginActivity.version01.UserSelectPopupActivity"
             android:theme="@style/myDialog" />
-        <activity android:name="com.example.beoks.gameis.weple.Activity.OwnerActivity.OwnerStoreListActivity" />
+        <activity android:name="com.example.beoks.gameis.weple.Activity.OwnerActivity.StoreList.OwnerStoreListActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -85,6 +85,7 @@
             android:windowSoftInputMode="adjustResize" />
         <activity android:name="com.example.beoks.gameis.weple.Activity.JoinActivity.JoinActivityStep5" />
         <activity android:name="com.example.beoks.gameis.weple.Activity.LoginActivity.version02.LoginMainActivity" />
+        <activity android:name="com.example.beoks.gameis.weple.Activity.OwnerActivity.AuthStoreActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

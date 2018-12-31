@@ -932,6 +932,9 @@ id alertTitle
 id all
 id always
 id async
+id auth_backButton
+id auth_editText
+id auth_okButton
 id auto
 id autoCompleteTextView
 id barrier
@@ -961,11 +964,9 @@ id container
 id contentPanel
 id coordinator
 id custom
-id customImageView
 id customPanel
 id customerButton
 id dark
-id dateTextView
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -997,7 +998,11 @@ id fill_vertical
 id fixed
 id foodButton
 id forever
-id gestureView
+id format_customImageView
+id format_deleteButton
+id format_editButton
+id format_statusTextView
+id format_storeNameTextView
 id ghost_view
 id gone
 id googleLoginButton
@@ -1005,6 +1010,7 @@ id groups
 id guideline
 id guideline2
 id guideline3
+id guideline4
 id guideline5
 id guideline6
 id home
@@ -1126,12 +1132,10 @@ id src_in
 id src_over
 id standard
 id start
-id statusTextView
 id status_bar_latest_event_content
 id storeList_add_new_loc
 id storeList_backButton
 id storeList_linearlayout
-id storeNameTextView
 id submenuarrow
 id submit_area
 id tabMode

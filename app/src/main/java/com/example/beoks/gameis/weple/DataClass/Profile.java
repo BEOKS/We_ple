@@ -12,27 +12,28 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.HashMap;
 
+/**
+ * 사용자 또는 사장님의 프로필 정보
+ * 데이터 : 닉네임, 이메일, 프로필이미지 저장소위치(클라우드),타입
+ */
 public class Profile {
-    //data
     public String key;
-    public DataSnapshot data;
-    public static final String name="닉네임",email="이메일",profileImagePath="프로필이미지 위치";
-    public static final String type="타입",owner="사장님",customer="사용자";
-
+    //value instance
+    public String name,email,profileImagePath,type;
     /**
-     *  make new user
+     *  새로운 프로필을 생성 후 파이어베이스에 업로드
      * @param key
      * @param name
      * @param email
      * @param type
      */
     public Profile(String key, String name, String email, String type){
-        HashMap<String,String> hashMap = new HashMap<String,String>();
-        hashMap.put(Profile.name,name);
-        hashMap.put(Profile.email,email);
-        hashMap.put(Profile.type,type);
         this.key=key;
-        FirebaseDatabase.getInstance().getReference("Profile").child(key).setValue(hashMap).addOnCompleteListener(new OnCompleteListener<Void>() {
+        this.name=name;
+        this.email=email;
+        this.type=type;
+        this.key=key;
+        FirebaseDatabase.getInstance().getReference("Profile").child(key).setValue(this).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if(!task.isSuccessful()){
@@ -48,14 +49,14 @@ public class Profile {
     }
 
     /**
-     * Download user data from DB
+     * 키를 참조해서 파이어베이스에서 다운로드
      * @param key
      */
     public Profile(String key){
         FirebaseDatabase.getInstance().getReference("Profile").child(key).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                data =dataSnapshot;
+                convertToClass(dataSnapshot);
             }
 
             @Override
@@ -69,7 +70,7 @@ public class Profile {
         FirebaseDatabase.getInstance().getReference("Profile").child(this.key).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                data =dataSnapshot;
+                convertToClass(dataSnapshot);
             }
 
             @Override
@@ -77,6 +78,9 @@ public class Profile {
                 Log.e("Profile","syncDataSnapShot canceled.");
             }
         });
+    }
+    private void convertToClass(DataSnapshot dataSnapshot){
+
     }
 
     //TODO set setter,getter about profileImage

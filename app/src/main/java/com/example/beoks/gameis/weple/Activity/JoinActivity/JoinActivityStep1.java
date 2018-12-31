@@ -57,11 +57,11 @@ public class JoinActivityStep1 extends AppCompatActivity {
         clickButton=(Button)findViewById(R.id.button);
     }
     private void setTextView(String type){
-        if(type.equals(Profile.customer)){
-            textView.setText(Profile.customer+"로 로그인하기");
+        if(type.equals("customer")){
+            textView.setText("사용자"+"로 로그인하기");
         }
-        else if(type.equals(Profile.owner)){
-            textView.setText(Profile.owner+"으로 로그인하기");
+        else if(type.equals("owner")){
+            textView.setText("사장님"+"으로 로그인하기");
         }
         else{
             Log.e(TAG,"setTextView() : 타입이 정확하지 않습니다");

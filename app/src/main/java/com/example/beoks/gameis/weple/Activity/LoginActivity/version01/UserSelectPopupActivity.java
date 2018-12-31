@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
+import com.example.beoks.gameis.weple.Activity.LoginActivity.version02.LoginMainActivity;
 import com.example.beoks.gameis.weple.R;
 
 public class UserSelectPopupActivity extends AppCompatActivity {
@@ -24,7 +25,7 @@ public class UserSelectPopupActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent();
-                intent.putExtra("type",MainLoginActivity.owner);
+                intent.putExtra("type",LoginMainActivity.owner);
                 setResult(RESULT_OK,intent);
                 finish();
             }
@@ -34,7 +35,7 @@ public class UserSelectPopupActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent();
-                intent.putExtra("type",MainLoginActivity.customer);
+                intent.putExtra("type",LoginMainActivity.customer);
                 setResult(RESULT_OK,intent);
                 finish();
             }

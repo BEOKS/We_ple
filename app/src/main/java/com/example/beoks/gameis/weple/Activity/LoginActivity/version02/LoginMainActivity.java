@@ -1,25 +1,21 @@
 package com.example.beoks.gameis.weple.Activity.LoginActivity.version02;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.annotation.NonNull;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.beoks.gameis.weple.Activity.CustomerActivity.CustomerStoreListActivity;
 import com.example.beoks.gameis.weple.Activity.JoinActivity.JoinActivityStep1;
-import com.example.beoks.gameis.weple.Activity.LoginActivity.version01.MainLoginActivity;
-import com.example.beoks.gameis.weple.Activity.LoginActivity.version01.SignUpActivity;
 import com.example.beoks.gameis.weple.Activity.LoginActivity.version01.UserSelectPopupActivity;
-import com.example.beoks.gameis.weple.Activity.OwnerActivity.OwnerStoreListActivity;
+import com.example.beoks.gameis.weple.Activity.OwnerActivity.StoreList.OwnerStoreListActivity;
 import com.example.beoks.gameis.weple.DataClass.GlobalData;
 import com.example.beoks.gameis.weple.DataClass.Profile;
 import com.example.beoks.gameis.weple.R;
@@ -75,7 +71,7 @@ public class LoginMainActivity extends AppCompatActivity {
 
     private String TAG="MainLoginActivity";
     private SessionCallback callback;
-    public static final String owner="사장님",customer="사용자";
+    public static final String owner="owner",customer="customer";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,7 +89,7 @@ public class LoginMainActivity extends AppCompatActivity {
 
         //check login
         if(mAuth.getCurrentUser()!=null){ // already login
-            firebaseDatabase.getReference("Profile").child(FirebaseAuth.getInstance().getUid()).child(Profile.type).addListenerForSingleValueEvent(new ValueEventListener() {
+            firebaseDatabase.getReference("Profile").child(FirebaseAuth.getInstance().getUid()).child("type").addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                     String type=(String)dataSnapshot.getValue();
@@ -171,7 +167,7 @@ public class LoginMainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(type!=null){
                     Intent intent=new Intent(getApplicationContext(),JoinActivityStep1.class);
-                    intent.putExtra("type",type);
+                    intent.putExtra("type",type.equals("사장님")?owner:customer);
                     startActivity(intent);
                 }
                 else{
@@ -182,7 +178,7 @@ public class LoginMainActivity extends AppCompatActivity {
     }
 
     private void moveActivity(String type){
-        if(type.equals(Profile.owner)){
+        if(type.equals(owner)){
             Intent intent=new Intent(getApplicationContext(), OwnerStoreListActivity.class);
             startActivity(intent);
         }
@@ -206,7 +202,7 @@ public class LoginMainActivity extends AppCompatActivity {
          */
         if(requestCode==RQ_TYPE_SELECT&&resultCode==RESULT_OK&&data!=null){
             type=data.getStringExtra("type");
-            typeTextView.setText(type);
+            typeTextView.setText(type.equals(owner)?"사장님":"사용자");
         }
 
         // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);

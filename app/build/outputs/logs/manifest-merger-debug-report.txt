@@ -186,10 +186,10 @@ ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidM
 		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:39:13-44
 	android:name
 		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:38:13-85
-activity#com.example.beoks.gameis.weple.Activity.OwnerActivity.OwnerStoreListActivity
-ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:40:9-83
+activity#com.example.beoks.gameis.weple.Activity.OwnerActivity.StoreList.OwnerStoreListActivity
+ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:40:9-93
 	android:name
-		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:40:19-80
+		ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:40:19-90
 meta-data#com.google.android.geo.API_KEY
 ADDED from /Users/knuprime070/AndroidStudioProjects/We_ple/app/src/main/AndroidManifest.xml:49:9-51:55
 	android:value
