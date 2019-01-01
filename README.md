@@ -1,7 +1,6 @@
 # We-ple
 이 어플리케이션은 현재 개발진행 중입니다.
 ## TODO_1
-이 것은 새로들어오신 분을 위해서 맡기는 일의 내용입니다.
 ![뷰
 ](https://lh3.googleusercontent.com/XTxNCHCLnIuSCtHdWSabSdS9E6nt6462wd5PYZEFUzW_94tOK8qiP9Nvt-HOcwW2-jT3trKSxoEf)
 ![클
