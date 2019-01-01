@@ -26,9 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86ffbfaa-d07f-4c9d-ae03-0db6185bb844" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/WaitInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/StoreContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/StoreContent.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,11 +83,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StoreContent.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StoreContent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/StoreContent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="112" selection-end-column="5" />
+            <state relative-caret-position="360">
+              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+              <folding>
+                <element signature="e#957#966#0" expanded="true" />
+                <element signature="e#1022#1030#0" expanded="true" />
+                <element signature="e#1107#1116#0" expanded="true" />
+                <element signature="e#1161#1167#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +101,8 @@
       <file leaf-file-name="Store.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/Store.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="375">
+              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#590#602#0" expanded="true" />
@@ -107,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WaitInfo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WaitInfo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/WaitInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -128,8 +134,8 @@
       <file leaf-file-name="LongReview.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/LongReview.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -2500,10 +2506,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_empty_activity.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/Article.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/LongReview.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/StoreContent.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/Menu.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/Store.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/WaitInfo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/Store.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/StoreContent.java" />
       </list>
     </option>
   </component>
@@ -3063,7 +3069,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546315630508</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="WaitInfo class complete">
+      <created>1546333910492</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546333910493</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3160,7 +3173,8 @@
     <MESSAGE value="complete AuthStoreActivity without intent to new StoreActivity" />
     <MESSAGE value="set Store class" />
     <MESSAGE value="complete menu class" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete menu class" />
+    <MESSAGE value="WaitInfo class complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="WaitInfo class complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3469,13 +3483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/StoreContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="112" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -3486,10 +3493,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/LongReview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/WaitInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="375">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#590#602#0" expanded="true" />
@@ -3499,17 +3520,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/LongReview.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/StoreContent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/beoks/gameis/weple/DataClass/Store/WaitInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        <state relative-caret-position="360">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding>
+            <element signature="e#957#966#0" expanded="true" />
+            <element signature="e#1022#1030#0" expanded="true" />
+            <element signature="e#1107#1116#0" expanded="true" />
+            <element signature="e#1161#1167#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

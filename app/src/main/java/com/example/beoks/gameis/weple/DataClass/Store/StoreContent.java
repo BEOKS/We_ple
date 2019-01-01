@@ -25,12 +25,12 @@ public class StoreContent {
     //필수
     public String key;
     public String name,location,mainImagePath,description,category;
-    public List<String> hashTag;
-    public List<String> additionalInfo; // 제목 : 내용
+    public List<String> hashTag=new ArrayList<String >();
+    public List<String> additionalInfo=new ArrayList<String>(); // 제목 : 내용
 
     //추가 입력정보
-    public List<Article> articles;
-    public List<Menu> menus;
+    public List<Article> articles=new ArrayList<Article>();
+    public List<Menu> menus=new ArrayList<Menu>();
     /**
      * no-argument 생성자는 파이어베이스 저장에 필요하다
      */
