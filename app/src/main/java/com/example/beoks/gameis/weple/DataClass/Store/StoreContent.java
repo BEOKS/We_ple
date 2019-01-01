@@ -21,7 +21,7 @@ import java.util.List;
 
 public class StoreContent {
     private final String TAG="StoreContent";
-    //data
+    //menu
     //필수
     public String key;
     public String name,location,mainImagePath,description,category;
