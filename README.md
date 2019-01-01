@@ -22,7 +22,9 @@
 
 이해가 안되는 부분은 언제든지 물어주시기 바랍니다.
 
+TODO :
 Avtivity/StoreView/ArticleView.class 완성
+
 layout/article_view.xml 완성
 
 **주의! 새로운 파일을 생성하시면 안됩니다.**
