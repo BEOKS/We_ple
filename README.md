@@ -27,6 +27,8 @@ Avtivity/StoreView/ArticleView.class 완성
 
 layout/article_view.xml 완성
 
+기한 : 1월 3일 정오까지
+
 **주의! 새로운 파일을 생성하시면 안됩니다.**
 
 # TODO_2 for gowls4023
@@ -59,5 +61,7 @@ TODO :
 Avtivity/StoreView/MenuView.class 완성
 
 layout/menu_view.xml 완성
+
+기한 : 1월 3일 정오까지
 
 **주의! 새로운 파일을 생성하시면 안됩니다.**
