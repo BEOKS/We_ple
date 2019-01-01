@@ -7,6 +7,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -15,14 +16,15 @@ public class Store {
     public String key;
     public StoreContent wikiContent,ownerContent;
     public HashMap simpleReview; // 리뷰이름 : 평점
-    public List<LongReview> longReviewList;
-    public List<Menu> menuList;
+    public List<LongReview> longReviewList=new ArrayList<LongReview>();
+    public List<Menu> menuList=new ArrayList<Menu>();
     public long likeCount;
 
     public boolean ownerExist=false;
     public String ownerKey="";
-
-    public boolean waitingOn,seatOn;
+    public boolean waitingOn=false,seatOn=false;
+    public int seatNum,maxSeatNum;
+    public List<WaitInfo> waitInfoList=new ArrayList<WaitInfo>();
 
     public Store(){
 
