@@ -11,6 +11,8 @@
 
 이번에 하실일은 아티클 뷰 클래스를 작성하시는 일입니다.
 
+이번에는 이미 파일을 생성하였고 수정만 하므로 따로 branch작업을 하실 필요가 없습니다.
+
 ## 요구사항
 내부에 있는 뷰는 제목을 나타내는 TextView,
 편집화면으로 이동하는 Butotn
@@ -35,7 +37,10 @@ layout/article_view.xml 완성
 # TODO_2 for gowls4023
 ## 설명
 위의 실제 뷰 사진의 예시를 보시면 아시겠지만 현재 동적으로 추가되는 내용은 아티클(제목 + 내용)과 메뉴가 있습니다.
+
 따라서 메뉴를 위한 포맷도 생각해야합니다.
+
+이번에는 이미 파일을 생성하였고 수정만 하므로 따로 branch작업을 하실 필요가 없습니다.
 
 ![enter image description here](https://lh3.googleusercontent.com/lRO84sZOuLTy7K1-SuAK15tET052L2-s_ee6jDgTrRKg-5TtGnVO_cBLRbK2oKyFLKFMFWNYn2JS "메뉴 리스트")
 
