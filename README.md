@@ -15,7 +15,7 @@
 
 ## 요구사항
 내부에 있는 뷰는 제목을 나타내는 TextView,
-편집화면으로 이동하는 Butotn
+편집화면으로 이동하는 Button
 그리고 설명을 나타내는 TextView 로 구성되도록 합니다.
 
 
@@ -57,7 +57,7 @@ layout/article_view.xml 완성
 
 ## 요구사항
 이는
-메뉴사진을 나타내는 Bitmap,
+메뉴사진을 나타내는 ImageView,
 메뉴이름은 나타내는 TextView,
 메뉴 가격을 나타내는 TextView,로 구성되도록 합니다.
 
