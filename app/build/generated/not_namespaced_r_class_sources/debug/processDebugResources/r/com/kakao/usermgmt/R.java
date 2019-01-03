@@ -155,15 +155,15 @@ public final class R {
         private layout() {}
 
         public static final int activity_kakao_webview = 0x7f0b0022;
-        public static final int kakao_login_layout = 0x7f0b0037;
-        public static final int layout_login_dialog = 0x7f0b0038;
-        public static final int layout_login_item = 0x7f0b0039;
-        public static final int notification_action = 0x7f0b003b;
-        public static final int notification_action_tombstone = 0x7f0b003c;
-        public static final int notification_template_custom_big = 0x7f0b0043;
-        public static final int notification_template_icon_group = 0x7f0b0044;
-        public static final int notification_template_part_chronometer = 0x7f0b0048;
-        public static final int notification_template_part_time = 0x7f0b0049;
+        public static final int kakao_login_layout = 0x7f0b0038;
+        public static final int layout_login_dialog = 0x7f0b0039;
+        public static final int layout_login_item = 0x7f0b003a;
+        public static final int notification_action = 0x7f0b003c;
+        public static final int notification_action_tombstone = 0x7f0b003d;
+        public static final int notification_template_custom_big = 0x7f0b0044;
+        public static final int notification_template_icon_group = 0x7f0b0045;
+        public static final int notification_template_part_chronometer = 0x7f0b0049;
+        public static final int notification_template_part_time = 0x7f0b004a;
     }
     public static final class string {
         private string() {}
