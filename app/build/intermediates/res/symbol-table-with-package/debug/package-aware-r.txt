@@ -983,7 +983,6 @@ id editText2
 id editText3
 id editText4
 id edit_query
-id emailEditText
 id end
 id end_padder
 id enterAlways
@@ -1005,9 +1004,7 @@ id format_statusTextView
 id format_storeNameTextView
 id ghost_view
 id gone
-id googleLoginButton
 id groups
-id guideline
 id guideline2
 id guideline3
 id guideline4
@@ -1026,19 +1023,16 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
-id kakaoLoginButton
 id largeLabel
 id left
 id lifeButton
 id light
 id line1
 id line3
-id linearLayout
 id linearLayout2
 id linearLayout3
 id listMode
 id list_item
-id loginButton
 id login_close_button
 id login_close_layout
 id login_list_view
@@ -1047,6 +1041,8 @@ id login_method_layout
 id login_method_text
 id login_title_text
 id loginmain_emailEditText
+id loginmain_gd_mid
+id loginmain_gd_top
 id loginmain_googleLoginButton
 id loginmain_kakaoLoginButton
 id loginmain_loginButton
@@ -1069,7 +1065,6 @@ id nav_share
 id nav_slideshow
 id navigation_header_container
 id never
-id nickNameEditText
 id none
 id normal
 id notification_background
@@ -1086,8 +1081,6 @@ id pin
 id progress_bar
 id progress_circular
 id progress_horizontal
-id pwdConfirmEditText
-id pwdEditText
 id radio
 id right
 id right_icon
@@ -1117,7 +1110,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signUpButton
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -1169,7 +1161,6 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
-id typeButton
 id typeTextView
 id uniform
 id up
@@ -1228,13 +1219,11 @@ layout activity_join_step4
 layout activity_join_step5
 layout activity_kakao_webview
 layout activity_main
-layout activity_main_login
-layout activity_main_login02
 layout activity_maps
-layout activity_sign_up
 layout activity_store_list
 layout activity_store_list2
 layout activity_store_list_store_format
+layout article_view
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1252,6 +1241,7 @@ layout design_text_input_password_icon
 layout kakao_login_layout
 layout layout_login_dialog
 layout layout_login_item
+layout menu_view
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action

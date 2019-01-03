@@ -1,4 +1,4 @@
-#Sun Dec 30 17:16:40 KST 2018
+#Thu Jan 03 17:27:09 KST 2019
 base.0=/Users/knuprime070/AndroidStudioProjects/We_ple/app/build/intermediates/transforms/dexMerger/debug/4
 path.0=classes.dex
 renamed.0=classes.dex

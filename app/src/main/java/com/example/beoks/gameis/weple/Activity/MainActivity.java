@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.example.beoks.gameis.weple.Activity.LoginActivity.version01.MainLoginActivity;
 import com.example.beoks.gameis.weple.Activity.LoginActivity.version02.LoginMainActivity;
 import com.example.beoks.gameis.weple.R;
 import com.google.firebase.analytics.FirebaseAnalytics;
@@ -25,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         FirebaseAuth.getInstance().signOut();
-        MainLoginActivity.kakaoOnClickLogout();
+        LoginMainActivity.kakaoOnClickLogout();
 
         //change layout page to waiting page
         setContentView(R.layout.activity_main);

@@ -49,8 +49,6 @@
             android:name="com.kakao.sdk.AppKey"
             android:value="@string/kakao_app_key" />
 
-        <activity android:name="com.example.beoks.gameis.weple.Activity.LoginActivity.version01.MainLoginActivity" />
-        <activity android:name="com.example.beoks.gameis.weple.Activity.LoginActivity.version01.SignUpActivity" />
         <activity
             android:name="com.example.beoks.gameis.weple.Activity.LoginActivity.version01.UserSelectPopupActivity"
             android:theme="@style/myDialog" />
