@@ -108,10 +108,6 @@
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\8c74f5a3847fe7a0b2d4bc76c2675da0\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
     },
     {
-        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_snslogin_kakaotalk.png.flat",
-        "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\drawable\\button_snslogin_kakaotalk.png"
-    },
-    {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4385f75c4af76465a1552f3bb418fa89\\res\\layout\\abc_action_menu_item_layout.xml"
     },
@@ -388,10 +384,6 @@
         "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
-        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_snslogin_google.png.flat",
-        "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\drawable\\button_snslogin_google.png"
-    },
-    {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\13d34600add86093624f7777cb5cc36d\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
@@ -494,10 +486,6 @@
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-small-v4_kakaostory_icon.png.flat",
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\util-1.15.1.aar\\fbc558a202245e5011bdcac845ba9343\\res\\drawable-small-v4\\kakaostory_icon.png"
-    },
-    {
-        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_roundedbox_join.png.flat",
-        "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\drawable\\button_roundedbox_join.png"
     },
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
@@ -1744,8 +1732,16 @@
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\8c74f5a3847fe7a0b2d4bc76c2675da0\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
+        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_snslogin_google.9.png.flat",
+        "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\drawable\\button_snslogin_google.9.png"
+    },
+    {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\1c9d815584f43b5932861817c5138d75\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_snslogin_kakaotalk.9.png.flat",
+        "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\drawable\\button_snslogin_kakaotalk.9.png"
     },
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_edittext.xml.flat",
@@ -2058,6 +2054,10 @@
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\8c74f5a3847fe7a0b2d4bc76c2675da0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_roundedbox_join.9.png.flat",
+        "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\drawable\\button_roundedbox_join.9.png"
     },
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_account.png.flat",

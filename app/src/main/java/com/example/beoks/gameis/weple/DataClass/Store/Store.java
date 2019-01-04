@@ -17,7 +17,6 @@ public class Store {
     public StoreContent wikiContent=null,ownerContent=null;
     public HashMap simpleReview=new HashMap(); // 리뷰이름 : 평점
     public List<LongReview> longReviewList=new ArrayList<LongReview>();
-    public List<Menu> menuList=new ArrayList<Menu>();
     public long likeCount;
 
     public boolean ownerExist=false;

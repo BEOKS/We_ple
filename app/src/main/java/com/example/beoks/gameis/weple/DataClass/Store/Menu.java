@@ -56,7 +56,6 @@ public class Menu {
     }
 
     public Bitmap getImage(int temp){
-        //TODO setting
         StorageReference storageReference=FirebaseStorage.getInstance().getReference(imagePath);
         final long ONE_MEGABYTE = 1024 * 1024;
         final Bitmap[] bitmap = new Bitmap[1];

@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.beoks.gameis.weple.DataClass.Store.StoreContent;
 import com.example.beoks.gameis.weple.R;
 
 import org.w3c.dom.Text;
@@ -20,8 +21,10 @@ public class OwnerStoreView extends LinearLayout {
 
     private String waitingStatus="off",seatStatus="off";
 
-    public OwnerStoreView(Context context) {
+    public OwnerStoreView(Context context,StoreContent storeContent) {
         super(context);
+        initView();
+
     }
 
     public OwnerStoreView(Context context, AttributeSet attrs) {
@@ -66,6 +69,11 @@ public class OwnerStoreView extends LinearLayout {
         statusTextView.setText("웨이팅 : "+waitingStatus+"\n빈좌석 수 표시 : "+seatStatus);
     }
     private void initButton(){
+        deleteButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+            }
+        });
     }
 }

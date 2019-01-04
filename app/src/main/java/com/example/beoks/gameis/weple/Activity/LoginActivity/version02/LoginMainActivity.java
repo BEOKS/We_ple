@@ -69,7 +69,7 @@ public class LoginMainActivity extends AppCompatActivity {
     private String type=null;
     private String nickname,email,pwd;
 
-    public static String defaultEmail="default_main_page@default_main_page.com";
+    public static String defaultEmail="defaulte@Wepledefault.com";
 
     /**
      * View instance
@@ -353,7 +353,7 @@ public class LoginMainActivity extends AppCompatActivity {
             public void onSuccess(MeV2Response response) {
                 email=response.getKakaoAccount().getEmail();
                 Log.i(TAG,"kakao : onSuccess");
-                if(email==null){
+                    if(email==null){
                     email=defaultEmail;
                 }
                 nickname=response.getNickname();
@@ -419,5 +419,15 @@ public class LoginMainActivity extends AppCompatActivity {
             }
         }
         return null;
+    }
+    private long time= 0;
+    @Override
+    public void onBackPressed(){
+        if(System.currentTimeMillis()-time>=2000){
+            time=System.currentTimeMillis();
+            Toast.makeText(getApplicationContext(),"뒤로 버튼을 한번 더 누르면 종료합니다.",Toast.LENGTH_SHORT).show();
+        }else if(System.currentTimeMillis()-time<2000){
+            finish();
+        }
     }
 }

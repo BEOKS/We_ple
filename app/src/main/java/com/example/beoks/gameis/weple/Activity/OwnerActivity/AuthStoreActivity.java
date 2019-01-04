@@ -1,16 +1,16 @@
 package com.example.beoks.gameis.weple.Activity.OwnerActivity;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.annotation.NonNull;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.example.beoks.gameis.weple.Activity.CommonActivity.StoreInfoActivity;
 import com.example.beoks.gameis.weple.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -22,6 +22,8 @@ public class AuthStoreActivity extends AppCompatActivity {
     private EditText codeEditText;
 
     private ProgressDialog dialog;
+
+    public final String NAME="name";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,7 +63,10 @@ public class AuthStoreActivity extends AppCompatActivity {
                             else{
                                 Toast.makeText(getApplicationContext(),"인증되었습니다.",Toast.LENGTH_SHORT).show();
                                 String storeName=(String)dataSnapshot.getValue();
-                                //TODO 초기 등록 액티비티로 이동, intent로 가게이름 전달
+                                Intent intent=new Intent(getApplicationContext(),StoreInfoActivity.class);
+                                intent.putExtra(NAME,(String)dataSnapshot.getValue());
+                                startActivity(intent);
+                                finish();
                             }
                         }
                         else{

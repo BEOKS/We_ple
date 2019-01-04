@@ -119,32 +119,32 @@ public final class R {
         public static final int blocking = 0x7f09002c;
         public static final int chronometer = 0x7f09003a;
         public static final int forever = 0x7f090062;
-        public static final int icon = 0x7f090073;
-        public static final int icon_group = 0x7f090074;
-        public static final int info = 0x7f090079;
-        public static final int italic = 0x7f09007b;
-        public static final int line1 = 0x7f090080;
-        public static final int line3 = 0x7f090081;
-        public static final int login_close_button = 0x7f090084;
-        public static final int login_close_layout = 0x7f090085;
-        public static final int login_list_view = 0x7f090086;
-        public static final int login_method_icon = 0x7f090087;
-        public static final int login_method_layout = 0x7f090088;
-        public static final int login_method_text = 0x7f090089;
-        public static final int login_title_text = 0x7f09008a;
-        public static final int normal = 0x7f0900a8;
-        public static final int notification_background = 0x7f0900a9;
-        public static final int notification_main_column = 0x7f0900aa;
-        public static final int notification_main_column_container = 0x7f0900ab;
-        public static final int progress_bar = 0x7f0900b4;
-        public static final int right_icon = 0x7f0900b9;
-        public static final int right_side = 0x7f0900ba;
-        public static final int tag_transition_group = 0x7f0900ed;
-        public static final int text = 0x7f0900ef;
-        public static final int text2 = 0x7f0900f0;
-        public static final int time = 0x7f0900ff;
-        public static final int title = 0x7f090100;
-        public static final int webview = 0x7f090115;
+        public static final int icon = 0x7f090075;
+        public static final int icon_group = 0x7f090076;
+        public static final int info = 0x7f09007b;
+        public static final int italic = 0x7f09007d;
+        public static final int line1 = 0x7f090082;
+        public static final int line3 = 0x7f090083;
+        public static final int login_close_button = 0x7f090086;
+        public static final int login_close_layout = 0x7f090087;
+        public static final int login_list_view = 0x7f090088;
+        public static final int login_method_icon = 0x7f090089;
+        public static final int login_method_layout = 0x7f09008a;
+        public static final int login_method_text = 0x7f09008b;
+        public static final int login_title_text = 0x7f09008c;
+        public static final int normal = 0x7f0900aa;
+        public static final int notification_background = 0x7f0900ab;
+        public static final int notification_main_column = 0x7f0900ac;
+        public static final int notification_main_column_container = 0x7f0900ad;
+        public static final int progress_bar = 0x7f0900b6;
+        public static final int right_icon = 0x7f0900bb;
+        public static final int right_side = 0x7f0900bc;
+        public static final int tag_transition_group = 0x7f0900f6;
+        public static final int text = 0x7f0900f8;
+        public static final int text2 = 0x7f0900f9;
+        public static final int time = 0x7f090109;
+        public static final int title = 0x7f09010a;
+        public static final int webview = 0x7f09011e;
     }
     public static final class integer {
         private integer() {}
@@ -199,7 +199,7 @@ public final class R {
         public static final int login_method = 0x7f0e0059;
         public static final int message_for_ssl_warning = 0x7f0e005a;
         public static final int status_bar_notification_info_overflow = 0x7f0e0068;
-        public static final int title_for_ssl_warning = 0x7f0e006d;
+        public static final int title_for_ssl_warning = 0x7f0e0070;
     }
     public static final class style {
         private style() {}

@@ -23,7 +23,6 @@ public class StoreContent {
     private final String TAG="StoreContent";
     //menu
     //필수
-    public String key;
     public String name,location,mainImagePath,description,category;
     public List<String> hashTag=new ArrayList<String >();
     public List<String> additionalInfo=new ArrayList<String>(); // 제목 : 내용
@@ -35,12 +34,15 @@ public class StoreContent {
      * no-argument 생성자는 파이어베이스 저장에 필요하다
      */
     public StoreContent(){
-
+        name="가게이름";
+        location="123:123";
+        mainImagePath="Profile/default.png";
+        description="상세설명 설정 필요";
+        category="카테고리 설정 필요";
     }
 
-    public StoreContent(final String key, String name, String location, Bitmap mainImage, String description, String category, ArrayList<String> hashTagList,
+    public StoreContent(String name, String location, Bitmap mainImage, String description, String category, ArrayList<String> hashTagList,
                         ArrayList<String> additionalInfo){
-        this.key=key;
         this.name=name;
         this.location=location;
         this.mainImagePath= uploadMainImage(mainImage); //실시간 DB에는 사진이 저장된 클라우드 위치만 저장
@@ -61,7 +63,7 @@ public class StoreContent {
      * @return 저장위치
      */
     public String uploadMainImage(Bitmap bitmap){
-        StorageReference storageReference=FirebaseStorage.getInstance().getReference("Profile/Image").child(key+".jpg");
+        StorageReference storageReference=FirebaseStorage.getInstance().getReference("Profile/Image").child(name+".jpg");
         //compress bitmap
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
@@ -82,7 +84,7 @@ public class StoreContent {
                 Log.i(TAG,"이미지 업로드 완료");
             }
         });
-        return "Profile/Image/"+key+".jpg";
+        return "Profile/Image/"+name+".jpg";
     }
 
     /**
