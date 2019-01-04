@@ -933,9 +933,6 @@ id all
 id always
 id article_button_edit
 id article_content
-id article_gd_left
-id article_gd_mid
-id article_gd_right
 id article_title
 id async
 id auth_backButton
@@ -1114,7 +1111,11 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id seatSwitch
+id seatTextView
 id select_dialog_listview
+id setting_store_backButton
+id setting_store_name
 id shortcut
 id showCustom
 id showHome
@@ -1176,6 +1177,9 @@ id up
 id useLogo
 id view_offset_helper
 id visible
+id waitTextView
+id wait_constraint
+id waitingSwitch
 id webview
 id wide
 id withText
@@ -1220,6 +1224,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_auth_store
+layout activity_edit_store
 layout activity_empty_activity
 layout activity_join_step1
 layout activity_join_step2

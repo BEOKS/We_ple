@@ -21,6 +21,8 @@ public class ArticleView extends LinearLayout implements View.OnClickListener{
     public ArticleView(Context context, Article article) {
         super(context);
         initView();
+        setContent(article.description);
+        setTitle(article.title);
     }
 
     public ArticleView(Context context, Article article, AttributeSet attrs) {

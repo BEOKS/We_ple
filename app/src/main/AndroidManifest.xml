@@ -67,7 +67,8 @@
         <activity android:name=".Activity.JoinActivity.JoinActivityStep5" />
         <activity android:name=".Activity.LoginActivity.version02.LoginMainActivity" />
         <activity android:name=".Activity.OwnerActivity.AuthStoreActivity" />
-        <activity android:name=".Activity.OwnerActivity.StoreList.SettingStoreActivity"></activity>
+        <activity android:name=".Activity.OwnerActivity.StoreList.SettingStoreActivity" />
+        <activity android:name=".Activity.CommonActivity.EditStoreActivity"></activity>
     </application>
 
 </manifest>

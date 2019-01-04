@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <LinearLayout
@@ -42,9 +42,6 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:text="갑자기 문득 브런치가 먹고 싶어져서 찾아갔다. 메뉴를 고를때 엄청 고민을 많이 했다."
-        android:textSize="16dp"
-        app:layout_constraintLeft_toLeftOf="@+id/article_gd_left"
-        app:layout_constraintRight_toRightOf="@+id/article_gd_right"
-        app:layout_constraintTop_toTopOf="@+id/article_gd_mid" />
+        android:textSize="16dp" />
 
 </LinearLayout>
