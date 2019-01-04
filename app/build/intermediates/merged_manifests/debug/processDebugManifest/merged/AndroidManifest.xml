@@ -84,6 +84,7 @@
         <activity android:name="com.example.beoks.gameis.weple.Activity.JoinActivity.JoinActivityStep5" />
         <activity android:name="com.example.beoks.gameis.weple.Activity.LoginActivity.version02.LoginMainActivity" />
         <activity android:name="com.example.beoks.gameis.weple.Activity.OwnerActivity.AuthStoreActivity" />
+        <activity android:name="com.example.beoks.gameis.weple.Activity.OwnerActivity.StoreList.SettingStoreActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

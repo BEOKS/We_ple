@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "521944852265-62p6uphrnt5f4f6do09r1vehfi2al7b5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.beoks.gameis.weple",
+            "certificate_hash": "c6b250c5220e9f4759093dd5cbe1a91ac323c9a4"
+          }
+        },
+        {
           "client_id": "521944852265-0es0ivv8cmdfotsgpbdtusm73p4bur9o.apps.googleusercontent.com",
           "client_type": 3
         }

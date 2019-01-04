@@ -1,10 +1,16 @@
 package com.example.beoks.gameis.weple.Activity.LoginActivity.version02;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.support.annotation.NonNull;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -46,11 +52,15 @@ import com.kakao.usermgmt.response.MeV2Response;
 import com.kakao.util.exception.KakaoException;
 import com.kakao.util.helper.log.Logger;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
+
+import static com.kakao.util.helper.Utility.getPackageInfo;
 
 public class LoginMainActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
@@ -73,12 +83,14 @@ public class LoginMainActivity extends AppCompatActivity {
     private SessionCallback callback;
     public static final String owner="owner",customer="customer";
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_empty_activity);
 
         initViewInstance();
+        Log.i(TAG,getKeyHash(getApplicationContext()));
 
         //init FB instance
         mAuth = FirebaseAuth.getInstance();
@@ -167,7 +179,7 @@ public class LoginMainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(type!=null){
                     Intent intent=new Intent(getApplicationContext(),JoinActivityStep1.class);
-                    intent.putExtra("type",type.equals("사장님")?owner:customer);
+                    intent.putExtra("type",type);
                     startActivity(intent);
                 }
                 else{
@@ -250,6 +262,7 @@ public class LoginMainActivity extends AppCompatActivity {
                 .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
                 .build();
+        Snackbar.make(googleLoginButton,"구글 로그인 중",Snackbar.LENGTH_SHORT).show();
         GoogleSignInClient mGoogleSignInClient;
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
@@ -293,11 +306,15 @@ public class LoginMainActivity extends AppCompatActivity {
 
         @Override
         public void onSessionOpened() {
+            Snackbar.make(googleLoginButton,"카카오 로그인 중",Snackbar.LENGTH_SHORT).show();
+            Log.i(TAG,"kakao : onSessionOpened");
             requestMe();
         }
 
         @Override
         public void onSessionOpenFailed(KakaoException exception) {
+            Log.i(TAG,"kakao : onSessionFail");
+            Log.e(TAG,exception.toString());
             if(exception != null) {
                 Logger.e(exception);
             }
@@ -305,6 +322,7 @@ public class LoginMainActivity extends AppCompatActivity {
     }
 
     public static void kakaoOnClickLogout() {
+        Session.getCurrentSession().clearCallbacks();
         UserManagement.getInstance().requestLogout(new LogoutResponseCallback() {
             @Override
             public void onCompleteLogout() {
@@ -328,12 +346,13 @@ public class LoginMainActivity extends AppCompatActivity {
 
             @Override
             public void onSessionClosed(ErrorResult errorResult) {
-
+                Log.i(TAG,"kakao : onSessionClose");
             }
 
             @Override
             public void onSuccess(MeV2Response response) {
                 email=response.getKakaoAccount().getEmail();
+                Log.i(TAG,"kakao : onSuccess");
                 if(email==null){
                     email=defaultEmail;
                 }
@@ -383,5 +402,22 @@ public class LoginMainActivity extends AppCompatActivity {
             result = false;
         }
         return result;
+    }
+
+    public String getKeyHash(final Context context) {
+        PackageInfo packageInfo = getPackageInfo(context, PackageManager.GET_SIGNATURES);
+        if (packageInfo == null)
+            return null;
+
+        for (Signature signature : packageInfo.signatures) {
+            try {
+                MessageDigest md = MessageDigest.getInstance("SHA");
+                md.update(signature.toByteArray());
+                return Base64.encodeToString(md.digest(), Base64.NO_WRAP);
+            } catch (NoSuchAlgorithmException e) {
+                Log.w(TAG, "Unable to get MessageDigest. signature=" + signature, e);
+            }
+        }
+        return null;
     }
 }

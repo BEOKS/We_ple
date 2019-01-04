@@ -931,6 +931,12 @@ id adjust_width
 id alertTitle
 id all
 id always
+id article_button_edit
+id article_content
+id article_gd_left
+id article_gd_mid
+id article_gd_right
+id article_title
 id async
 id auth_backButton
 id auth_editText
@@ -1053,6 +1059,9 @@ id map
 id masked
 id media_actions
 id menuButton
+id menu_image
+id menu_name
+id menu_price
 id message
 id middle
 id mini
@@ -1220,6 +1229,7 @@ layout activity_join_step5
 layout activity_kakao_webview
 layout activity_main
 layout activity_maps
+layout activity_setting_store
 layout activity_store_list
 layout activity_store_list2
 layout activity_store_list_store_format
