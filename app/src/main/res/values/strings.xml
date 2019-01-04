@@ -99,4 +99,6 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="title_activity_maps">Map</string>
+    <string name="title_activity_store_info">StoreInfoActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>

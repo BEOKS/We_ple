@@ -26,9 +26,9 @@ public final class R {
     public static final class dimen {
         private dimen() {}
 
-        public static final int com_kakao_padding = 0x7f07004b;
-        public static final int com_kakao_profile_property_margin = 0x7f07004c;
-        public static final int com_kakao_profile_property_text = 0x7f07004d;
+        public static final int com_kakao_padding = 0x7f07004e;
+        public static final int com_kakao_profile_property_margin = 0x7f07004f;
+        public static final int com_kakao_profile_property_text = 0x7f070050;
     }
     public static final class drawable {
         private drawable() {}

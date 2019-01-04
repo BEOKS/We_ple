@@ -648,6 +648,9 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+dimen appbar_padding_top
 dimen com_kakao_padding
 dimen com_kakao_profile_property_margin
 dimen com_kakao_profile_property_text
@@ -696,6 +699,7 @@ dimen design_tab_text_size
 dimen design_tab_text_size_2line
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -931,6 +935,7 @@ id adjust_width
 id alertTitle
 id all
 id always
+id appbar
 id article_button_edit
 id article_content
 id article_title
@@ -960,6 +965,7 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id com_kakao_login
+id constraintLayout
 id container
 id contentPanel
 id coordinator
@@ -977,16 +983,6 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
-id editStore_backButton
-id editStore_changePhotoButton
-id editStore_descriptionButton
-id editStore_descriptionButton2
-id editStore_entertainmentButton
-id editStore_hashButton
-id editStore_nameButton
-id editStore_saveButton
-id editStore_storeName
-id editStore_toolbar
 id editText
 id editText2
 id editText3
@@ -999,6 +995,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1012,13 +1009,11 @@ id format_storeNameTextView
 id ghost_view
 id gone
 id groups
-id guideline
 id guideline2
 id guideline3
 id guideline4
 id guideline5
 id guideline6
-id guideline7
 id home
 id homeAsUp
 id hybrid
@@ -1027,7 +1022,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageView
 id imageView5
 id info
 id invisible
@@ -1056,6 +1050,7 @@ id loginmain_loginButton
 id loginmain_pwdEditText
 id loginmain_signUpButton
 id loginmain_typeButton
+id main_content
 id map
 id masked
 id media_actions
@@ -1103,7 +1098,6 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
-id scrollView3
 id scrollable
 id search_badge
 id search_bar
@@ -1117,6 +1111,7 @@ id search_src_text
 id search_voice_btn
 id seatSwitch
 id seatTextView
+id section_label
 id select_dialog_listview
 id setting_store_backButton
 id setting_store_name
@@ -1159,9 +1154,6 @@ id textView4
 id textView45
 id textView5
 id textView6
-id textView7
-id textView8
-id textView9
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1169,6 +1161,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -1230,7 +1223,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_auth_store
-layout activity_edit_store
 layout activity_empty_activity
 layout activity_join_step1
 layout activity_join_step2
@@ -1241,6 +1233,7 @@ layout activity_kakao_webview
 layout activity_main
 layout activity_maps
 layout activity_setting_store
+layout activity_store_info
 layout activity_store_list
 layout activity_store_list2
 layout activity_store_list_store_format
@@ -1260,6 +1253,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_store_info
 layout kakao_login_layout
 layout layout_login_dialog
 layout layout_login_item
@@ -1285,6 +1279,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu activity_store_list_drawer
+menu menu_store_info
 menu menu_store_list_scrolling
 menu store_list
 mipmap ic_launcher
@@ -1392,8 +1387,10 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
 string search_menu_title
+string section_format
 string status_bar_notification_info_overflow
 string title_activity_maps
+string title_activity_store_info
 string title_activity_store_list
 string title_activity_store_list_scrolling
 string title_for_ssl_warning
