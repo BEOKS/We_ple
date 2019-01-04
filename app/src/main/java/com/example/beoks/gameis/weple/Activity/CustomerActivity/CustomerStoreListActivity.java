@@ -17,21 +17,6 @@ public class CustomerStoreListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_store_list2);
-        initViewinstance();
-
     }
 
-    public Button menuButton;
-    public AutoCompleteTextView autoCompleteTextView;
-    public Button checkButotn;
-    public LinearLayout searchedTagLayout;
-    public ImageButton foodButton,cafeButton,lifeButton,entertainmentButton,drinkButton;
-    public Spinner orderSpinenr;
-    public TableLayout tableLayout;
-    private void initViewinstance(){
-
-    }
-    private void refreshSearchResult(String category,String[] hashTagList,String orderLevel,TableLayout tableLayout){
-
-    }
 }
