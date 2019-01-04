@@ -845,6 +845,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable default_main_page
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -890,6 +891,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable popup_background
+drawable round_fore_ground
 drawable selector_login_button
 drawable side_nav_bar
 drawable story
@@ -899,8 +901,6 @@ drawable tooltip_frame_light
 id ALT
 id CTRL
 id FUNCTION
-id HscrollView
-id HscrollView2
 id META
 id SHIFT
 id SYM
@@ -939,7 +939,6 @@ id auth_backButton
 id auth_editText
 id auth_okButton
 id auto
-id autoCompleteTextView
 id barrier
 id beginning
 id blocking
@@ -950,13 +949,11 @@ id button3
 id button4
 id button5
 id buttonPanel
-id cafeButton
 id cancel_action
 id center
 id center_horizontal
 id center_vertical
 id chains
-id checkButton
 id checkbox
 id chronometer
 id clip_horizontal
@@ -980,7 +977,17 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
-id drinkButton
+id editStore_backButton
+id editStore_changePhotoButton
+id editStore_descriptionButton
+id editStore_descriptionButton2
+id editStore_descriptionButton3
+id editStore_entertainmentButton
+id editStore_hashButton
+id editStore_nameButton
+id editStore_saveButton
+id editStore_storeName
+id editStore_toolbar
 id editText
 id editText2
 id editText3
@@ -990,7 +997,6 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
-id entertainmentButton
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -998,7 +1004,6 @@ id fill
 id fill_horizontal
 id fill_vertical
 id fixed
-id foodButton
 id forever
 id format_customImageView
 id format_deleteButton
@@ -1008,11 +1013,13 @@ id format_storeNameTextView
 id ghost_view
 id gone
 id groups
+id guideline
 id guideline2
 id guideline3
 id guideline4
 id guideline5
 id guideline6
+id guideline7
 id home
 id homeAsUp
 id hybrid
@@ -1021,6 +1028,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView
 id imageView5
 id info
 id invisible
@@ -1028,12 +1036,9 @@ id italic
 id item_touch_helper_previous_elevation
 id largeLabel
 id left
-id lifeButton
 id light
 id line1
 id line3
-id linearLayout2
-id linearLayout3
 id listMode
 id list_item
 id login_close_button
@@ -1055,7 +1060,6 @@ id loginmain_typeButton
 id map
 id masked
 id media_actions
-id menuButton
 id menu_image
 id menu_name
 id menu_price
@@ -1100,6 +1104,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView3
 id scrollable
 id search_badge
 id search_bar
@@ -1125,7 +1130,6 @@ id snackbar_action
 id snackbar_text
 id snap
 id spacer
-id spinner
 id split_action_bar
 id spread
 id spread_inside
@@ -1156,6 +1160,9 @@ id textView4
 id textView45
 id textView5
 id textView6
+id textView7
+id textView8
+id textView9
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1239,6 +1246,7 @@ layout activity_store_list
 layout activity_store_list2
 layout activity_store_list_store_format
 layout article_view
+layout card_view
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

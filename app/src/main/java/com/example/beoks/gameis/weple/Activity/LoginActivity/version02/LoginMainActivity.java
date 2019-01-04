@@ -69,7 +69,7 @@ public class LoginMainActivity extends AppCompatActivity {
     private String type=null;
     private String nickname,email,pwd;
 
-    public static String defaultEmail="default@default.com";
+    public static String defaultEmail="default_main_page@default_main_page.com";
 
     /**
      * View instance
