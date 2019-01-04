@@ -981,7 +981,6 @@ id editStore_backButton
 id editStore_changePhotoButton
 id editStore_descriptionButton
 id editStore_descriptionButton2
-id editStore_descriptionButton3
 id editStore_entertainmentButton
 id editStore_hashButton
 id editStore_nameButton
