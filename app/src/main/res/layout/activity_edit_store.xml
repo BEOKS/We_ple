@@ -71,6 +71,17 @@
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="필수"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/editStore_changePhotoButton" />
+
     <android.support.constraint.Guideline
         android:id="@+id/guideline7"
         android:layout_width="wrap_content"
@@ -78,7 +89,7 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.91727495" />
 
-    <ImageView
+    <FrameLayout
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -93,7 +104,19 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:srcCompat="@android:drawable/btn_star" />
+       >
+        <ImageView
+            android:id="@+id/editStore_mainPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="6dp"
+            android:background="#000"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="@drawable/round_fore_ground"
+            />
+    </FrameLayout>
 
     <Button
         android:id="@+id/editStore_changePhotoButton"
