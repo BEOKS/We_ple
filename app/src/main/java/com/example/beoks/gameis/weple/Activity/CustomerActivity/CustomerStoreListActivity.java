@@ -11,12 +11,15 @@ import android.widget.TableLayout;
 
 import com.example.beoks.gameis.weple.R;
 
+import java.util.HashMap;
+
 public class CustomerStoreListActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_store_list2);
+        HashMap<String,Button> hashMap;
     }
 
 }
