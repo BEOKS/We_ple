@@ -22,12 +22,13 @@
 
             <Button
                 android:id="@+id/storeInfo_likeButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="0dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
-                android:text="좋아요 버튼"
+                android:background="@drawable/ic_add_black_24dp"
+                app:layout_constraintDimensionRatio="1:1"
                 app:layout_constraintEnd_toEndOf="@+id/storeInfo_mainImage"
                 app:layout_constraintTop_toTopOf="@+id/storeInfo_mainImage" />
 
@@ -69,10 +70,10 @@
 
             <TextView
                 android:id="@+id/storeInfo_likeCount"
-                android:layout_width="104dp"
+                android:layout_width="wrap_content"
                 android:layout_height="26dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
                 android:layout_marginBottom="8dp"
                 android:gravity="right"
                 android:text="좋아요 갯수"

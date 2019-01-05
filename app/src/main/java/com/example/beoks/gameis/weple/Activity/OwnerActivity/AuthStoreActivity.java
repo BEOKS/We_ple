@@ -10,7 +10,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.beoks.gameis.weple.Activity.CommonActivity.StoreData;
 import com.example.beoks.gameis.weple.Activity.CommonActivity.StoreInfoActivity;
+import com.example.beoks.gameis.weple.DataClass.Store.Store;
 import com.example.beoks.gameis.weple.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -63,6 +65,9 @@ public class AuthStoreActivity extends AppCompatActivity {
                             else{
                                 Toast.makeText(getApplicationContext(),"인증되었습니다.",Toast.LENGTH_SHORT).show();
                                 String storeName=(String)dataSnapshot.getValue();
+
+                                StoreData.store=new Store();
+                                StoreData.store.name=storeName;
                                 Intent intent=new Intent(getApplicationContext(),StoreInfoActivity.class);
                                 intent.putExtra(NAME,(String)dataSnapshot.getValue());
                                 startActivity(intent);

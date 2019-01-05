@@ -268,7 +268,7 @@ public class LoginMainActivity extends AppCompatActivity {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
     }
-    private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
+    private void firebaseAuthWithGoogle(final GoogleSignInAccount acct) {
         Log.d(TAG, "firebaseAuthWithGoogle:" + acct.getId());
         AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
         mAuth.signInWithCredential(credential)
@@ -280,7 +280,7 @@ public class LoginMainActivity extends AppCompatActivity {
                             Log.d(TAG, "signInWithCredential:success");
                             Toast.makeText(getApplicationContext(), "구글 로그인 성공", Toast.LENGTH_SHORT).show();
                             if(task.getResult().getAdditionalUserInfo().isNewUser()){
-                                email=mAuth.getCurrentUser().getEmail();
+                                email=acct.getEmail();
                                 GlobalData.loginProfile=new Profile(mAuth.getUid(),mAuth.getCurrentUser().getDisplayName(),email,type);
                             }
                             else{

@@ -70,8 +70,7 @@
         <activity android:name=".Activity.OwnerActivity.StoreList.SettingStoreActivity" />
         <activity
             android:name=".Activity.CommonActivity.StoreInfoActivity"
-            android:label="@string/title_activity_store_info"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="@string/title_activity_store_info"></activity>
     </application>
 
 </manifest>

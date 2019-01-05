@@ -87,8 +87,7 @@
         <activity android:name="com.example.beoks.gameis.weple.Activity.OwnerActivity.StoreList.SettingStoreActivity" />
         <activity
             android:name="com.example.beoks.gameis.weple.Activity.CommonActivity.StoreInfoActivity"
-            android:label="@string/title_activity_store_info"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_store_info" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

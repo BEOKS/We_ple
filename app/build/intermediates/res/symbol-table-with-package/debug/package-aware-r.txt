@@ -869,6 +869,7 @@ drawable ic_menu_manage
 drawable ic_menu_send
 drawable ic_menu_share
 drawable ic_menu_slideshow
+drawable ic_remove_black_24dp
 drawable kakao_account_button_background
 drawable kakao_account_logo
 drawable kakao_cancel_button_background

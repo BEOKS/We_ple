@@ -53,6 +53,8 @@ public class OwnerStoreListActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
     private long time= 0;
     @Override

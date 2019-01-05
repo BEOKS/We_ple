@@ -1,8 +1,10 @@
 package com.example.beoks.gameis.weple.Activity.CommonActivity;
 
+import android.content.DialogInterface;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
@@ -11,6 +13,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
+import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,6 +25,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.beoks.gameis.weple.DataClass.GlobalData;
 import com.example.beoks.gameis.weple.DataClass.Store.Store;
 import com.example.beoks.gameis.weple.R;
 
@@ -86,17 +90,20 @@ public class StoreInfoActivity extends AppCompatActivity {
             this.store=StoreData.store;
         }
     }
+    private Boolean likeButtonClicked=false,isEditMode=false;
     private void initAppBar(){
         backButton=findViewById(R.id.auth_backButton);
         likeButton=findViewById(R.id.storeInfo_likeButton);
         allEditButton=findViewById(R.id.storeInfo_all_editButton);
         cateEditButton=findViewById(R.id.storeInfo_cate_name_editButton);
+        cateEditButton.setVisibility(View.GONE);
 
         imageView=findViewById(R.id.storeInfo_mainImage);
 
         likeTextView=findViewById(R.id.storeInfo_likeCount);
         categoryTextView=findViewById(R.id.storeInfo_categoryTextView);
         nameTextView=findViewById(R.id.storeInfo_nameTextView);
+        nameTextView.setText(StoreData.store.name);
 
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -105,14 +112,80 @@ public class StoreInfoActivity extends AppCompatActivity {
             }
         });
 
-        likeTextView.setOnClickListener(new View.OnClickListener() {
+        likeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(likeButtonClicked){
+                    likeButtonClicked=false;
+                    store.likeCount--;
+                    likeButton.setBackgroundResource(R.drawable.ic_add_black_24dp);
+                    store.likeUser.remove(store.likeUser.indexOf(GlobalData.loginProfile.key));
+                }
+                else{
+                    likeButtonClicked=true;
+                    store.likeCount++;
+                    likeButton.setBackgroundResource(R.drawable.ic_remove_black_24dp);
+                    store.likeUser.add(GlobalData.loginProfile.key);
+                    int d=0;
+                }
+                likeTextView.setText(""+store.likeCount);
+            }
+        });
 
+        allEditButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder builder=new AlertDialog.Builder(new ContextThemeWrapper(StoreInfoActivity.this, R.style.myDialog));
+               if(isEditMode){
+                   builder.setMessage("내용을 설정하시겠습니까?");
+                   builder.setPositiveButton("예",
+                           new DialogInterface.OnClickListener() {
+                               @Override
+                               public void onClick(DialogInterface dialogInterface, int i) {
+                                   turnOFFeditMode();
+                               }
+                           });
+                   builder.setNegativeButton("아니오",
+                           new DialogInterface.OnClickListener() {
+                               @Override
+                               public void onClick(DialogInterface dialogInterface, int i) {
+
+                               }
+                           });
+                   builder.show();
+               }
+               else{
+                   builder.setTitle("편집모드로 전환하시겠습니까?");
+                   builder.setMessage("악의적 편집은 어플 정책에 따라 제제 처리가 이루어 질 수 있습니다.");
+                   builder.setPositiveButton("예",
+                           new DialogInterface.OnClickListener() {
+                               @Override
+                               public void onClick(DialogInterface dialogInterface, int i) {
+                                   turnOnEditMode();
+                               }
+                           });
+                   builder.setNegativeButton("아니오",
+                           new DialogInterface.OnClickListener() {
+                               @Override
+                               public void onClick(DialogInterface dialogInterface, int i) {
+
+                               }
+                           });
+                   builder.show();
+               }
             }
         });
     }
-
+    public void turnOnEditMode(){
+        isEditMode=true;
+        allEditButton.setText("확인");
+        cateEditButton.setVisibility(View.VISIBLE);
+    }
+    public void turnOFFeditMode(){
+        isEditMode=false;
+        allEditButton.setText("전체편집");
+        cateEditButton.setVisibility(View.GONE);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -203,6 +276,7 @@ public class StoreInfoActivity extends AppCompatActivity {
             time=System.currentTimeMillis();
             Toast.makeText(getApplicationContext(),"뒤로 버튼을 한번 더 누르면 종료합니다.",Toast.LENGTH_SHORT).show();
         }else if(System.currentTimeMillis()-time<2000){
+            store.updateData(0);
             finish();
         }
     }

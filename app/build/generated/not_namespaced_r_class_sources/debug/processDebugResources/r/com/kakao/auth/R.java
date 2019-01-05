@@ -75,30 +75,30 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int kakao_account_button_background = 0x7f08008c;
-        public static final int kakao_account_logo = 0x7f08008d;
-        public static final int kakao_cancel_button_background = 0x7f08008e;
-        public static final int kakao_default_profile_image = 0x7f08008f;
-        public static final int kakao_editable_profile = 0x7f080090;
-        public static final int kakao_login_bar = 0x7f080091;
-        public static final int kakao_login_button_background = 0x7f080092;
-        public static final int kakao_login_symbol = 0x7f080093;
-        public static final int kakao_profile_boxbg = 0x7f080094;
-        public static final int kakaoaccount_icon = 0x7f080095;
-        public static final int kakaostory_icon = 0x7f080096;
-        public static final int kakaotalk_icon = 0x7f080097;
-        public static final int notification_action_background = 0x7f080099;
-        public static final int notification_bg = 0x7f08009a;
-        public static final int notification_bg_low = 0x7f08009b;
-        public static final int notification_bg_low_normal = 0x7f08009c;
-        public static final int notification_bg_low_pressed = 0x7f08009d;
-        public static final int notification_bg_normal = 0x7f08009e;
-        public static final int notification_bg_normal_pressed = 0x7f08009f;
-        public static final int notification_icon_background = 0x7f0800a0;
-        public static final int notification_template_icon_bg = 0x7f0800a1;
-        public static final int notification_template_icon_low_bg = 0x7f0800a2;
-        public static final int notification_tile_bg = 0x7f0800a3;
-        public static final int notify_panel_notification_icon_bg = 0x7f0800a4;
+        public static final int kakao_account_button_background = 0x7f08008d;
+        public static final int kakao_account_logo = 0x7f08008e;
+        public static final int kakao_cancel_button_background = 0x7f08008f;
+        public static final int kakao_default_profile_image = 0x7f080090;
+        public static final int kakao_editable_profile = 0x7f080091;
+        public static final int kakao_login_bar = 0x7f080092;
+        public static final int kakao_login_button_background = 0x7f080093;
+        public static final int kakao_login_symbol = 0x7f080094;
+        public static final int kakao_profile_boxbg = 0x7f080095;
+        public static final int kakaoaccount_icon = 0x7f080096;
+        public static final int kakaostory_icon = 0x7f080097;
+        public static final int kakaotalk_icon = 0x7f080098;
+        public static final int notification_action_background = 0x7f08009a;
+        public static final int notification_bg = 0x7f08009b;
+        public static final int notification_bg_low = 0x7f08009c;
+        public static final int notification_bg_low_normal = 0x7f08009d;
+        public static final int notification_bg_low_pressed = 0x7f08009e;
+        public static final int notification_bg_normal = 0x7f08009f;
+        public static final int notification_bg_normal_pressed = 0x7f0800a0;
+        public static final int notification_icon_background = 0x7f0800a1;
+        public static final int notification_template_icon_bg = 0x7f0800a2;
+        public static final int notification_template_icon_low_bg = 0x7f0800a3;
+        public static final int notification_tile_bg = 0x7f0800a4;
+        public static final int notify_panel_notification_icon_bg = 0x7f0800a5;
     }
     public static final class id {
         private id() {}
