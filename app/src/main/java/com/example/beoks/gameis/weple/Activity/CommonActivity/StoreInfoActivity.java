@@ -1,6 +1,9 @@
 package com.example.beoks.gameis.weple.Activity.CommonActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -29,6 +32,8 @@ import com.example.beoks.gameis.weple.DataClass.GlobalData;
 import com.example.beoks.gameis.weple.DataClass.Store.Store;
 import com.example.beoks.gameis.weple.R;
 
+import java.io.InputStream;
+
 public class StoreInfoActivity extends AppCompatActivity {
 
     public Store store;
@@ -47,7 +52,7 @@ public class StoreInfoActivity extends AppCompatActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
-    private Button backButton,likeButton,allEditButton,cateEditButton;
+    private Button backButton,likeButton,allEditButton,cateEditButton,editMainImageButton;
     private ImageView imageView;
     private TextView likeTextView,categoryTextView,nameTextView;
     @Override
@@ -97,6 +102,8 @@ public class StoreInfoActivity extends AppCompatActivity {
         allEditButton=findViewById(R.id.storeInfo_all_editButton);
         cateEditButton=findViewById(R.id.storeInfo_cate_name_editButton);
         cateEditButton.setVisibility(View.GONE);
+        editMainImageButton=findViewById(R.id.storeInfo_editMainImageButton);
+        editMainImageButton.setVisibility(View.GONE);
 
         imageView=findViewById(R.id.storeInfo_mainImage);
 
@@ -175,18 +182,53 @@ public class StoreInfoActivity extends AppCompatActivity {
                }
             }
         });
+        editMainImageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setType("image/*");
+                intent.setAction(Intent.ACTION_GET_CONTENT);
+                startActivityForResult(intent, PICK_IMAGE);
+            }
+        });
     }
     public void turnOnEditMode(){
         isEditMode=true;
         allEditButton.setText("확인");
         cateEditButton.setVisibility(View.VISIBLE);
+        editMainImageButton.setVisibility(View.VISIBLE);
     }
     public void turnOFFeditMode(){
         isEditMode=false;
         allEditButton.setText("전체편집");
         cateEditButton.setVisibility(View.GONE);
+        editMainImageButton.setVisibility(View.GONE);
+    }
+    public static final int PICK_IMAGE = 1;
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        // Check which request we're responding to
+        if (requestCode == 1) {
+            // Make sure the request was successful
+            if (resultCode == RESULT_OK) {
+                try {
+                    // 선택한 이미지에서 비트맵 생성
+                    InputStream in = getContentResolver().openInputStream(data.getData());
+                    Bitmap img = BitmapFactory.decodeStream(in);
+                    imageView.setImageBitmap(img);
+                    in.close();
+                    // 이미지 표시
+                    imageView.setImageBitmap(img);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 
+    /**
+     * 이 아래는 탭 액티비티 관련 코드 수정하지 말 것!
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

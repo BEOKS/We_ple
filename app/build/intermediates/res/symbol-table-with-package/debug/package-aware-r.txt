@@ -1139,6 +1139,7 @@ id status_bar_latest_event_content
 id storeInfo_all_editButton
 id storeInfo_cate_name_editButton
 id storeInfo_categoryTextView
+id storeInfo_editMainImageButton
 id storeInfo_likeButton
 id storeInfo_likeCount
 id storeInfo_mainImage
