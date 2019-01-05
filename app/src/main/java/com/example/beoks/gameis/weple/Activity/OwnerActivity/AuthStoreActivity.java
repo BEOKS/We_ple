@@ -72,6 +72,7 @@ public class AuthStoreActivity extends AppCompatActivity {
                                 FirebaseDatabase.getInstance().getReference("인증코드").child(code).child("소유자").setValue(GlobalData.loginProfile.key);
                                 StoreData.store=new Store();
                                 StoreData.store.name=storeName;
+                                FirebaseDatabase.getInstance().getReference("Store").child(storeName).setValue(StoreData.store);
                                 Intent intent=new Intent(getApplicationContext(),StoreInfoActivity.class);
                                 intent.putExtra("type","owner");
                                 startActivity(intent);
