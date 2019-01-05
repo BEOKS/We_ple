@@ -949,7 +949,6 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button
 id button2
 id button3
 id button4
@@ -993,6 +992,8 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id entertain_clickButton
+id entertain_layout
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1025,6 +1026,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView
 id imageView5
 id info
 id invisible
@@ -1238,6 +1240,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_auth_store
+layout activity_edit_entertain_ment
 layout activity_empty_activity
 layout activity_join_step1
 layout activity_join_step2
@@ -1268,6 +1271,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout entertain_button
 layout fragment_store_info
 layout kakao_login_layout
 layout layout_login_dialog

@@ -14,7 +14,7 @@ import java.util.List;
 public class Store {
     public final String TAG="Store";
     public String key,name;
-    public StoreContent wikiContent=null,ownerContent=null;
+    public StoreContent wikiContent=new StoreContent(),ownerContent=new StoreContent();
     public HashMap simpleReview=new HashMap(); // 리뷰이름 : 평점
     public List<LongReview> longReviewList=new ArrayList<LongReview>();
 

@@ -70,7 +70,8 @@
         <activity android:name=".Activity.OwnerActivity.StoreList.SettingStoreActivity" />
         <activity
             android:name=".Activity.CommonActivity.StoreInfoActivity"
-            android:label="@string/title_activity_store_info"></activity>
+            android:label="@string/title_activity_store_info" />
+        <activity android:name=".Activity.CommonActivity.EditEntertainMent"></activity>
     </application>
 
 </manifest>

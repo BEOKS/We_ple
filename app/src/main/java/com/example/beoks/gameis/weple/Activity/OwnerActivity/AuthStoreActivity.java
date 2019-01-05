@@ -73,7 +73,7 @@ public class AuthStoreActivity extends AppCompatActivity {
                                 StoreData.store=new Store();
                                 StoreData.store.name=storeName;
                                 Intent intent=new Intent(getApplicationContext(),StoreInfoActivity.class);
-                                intent.putExtra(NAME,storeName);
+                                intent.putExtra("type","owner");
                                 startActivity(intent);
                                 finish();
                             }

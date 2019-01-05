@@ -34,9 +34,14 @@ import com.example.beoks.gameis.weple.R;
 
 import java.io.InputStream;
 
+/**
+ * 사용법 : 이 엑티비티를 호출할 때는 type:owner|customer 값을 인텐트에 추가해야함
+ */
 public class StoreInfoActivity extends AppCompatActivity {
 
     public Store store;
+    public String type;
+    private boolean isOwner=false;
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -61,6 +66,10 @@ public class StoreInfoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_store_info);
         getStoreData();
         initAppBar();
+        type=getIntent().getStringExtra("type");
+        if(type.equals("owner")){
+            isOwner=true;
+        }
 
 
         // Create the adapter that will return a fragment for each of the three
@@ -112,6 +121,9 @@ public class StoreInfoActivity extends AppCompatActivity {
         nameTextView=findViewById(R.id.storeInfo_nameTextView);
         nameTextView.setText(StoreData.store.name);
 
+        setButton();
+    }
+    private void setButton(){
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -133,7 +145,6 @@ public class StoreInfoActivity extends AppCompatActivity {
                     store.likeCount++;
                     likeButton.setBackgroundResource(R.drawable.ic_remove_black_24dp);
                     store.likeUser.add(GlobalData.loginProfile.key);
-                    int d=0;
                 }
                 likeTextView.setText(""+store.likeCount);
             }
@@ -143,43 +154,43 @@ public class StoreInfoActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder builder=new AlertDialog.Builder(new ContextThemeWrapper(StoreInfoActivity.this, R.style.myDialog));
-               if(isEditMode){
-                   builder.setMessage("내용을 설정하시겠습니까?");
-                   builder.setPositiveButton("예",
-                           new DialogInterface.OnClickListener() {
-                               @Override
-                               public void onClick(DialogInterface dialogInterface, int i) {
-                                   turnOFFeditMode();
-                               }
-                           });
-                   builder.setNegativeButton("아니오",
-                           new DialogInterface.OnClickListener() {
-                               @Override
-                               public void onClick(DialogInterface dialogInterface, int i) {
+                if(isEditMode){
+                    builder.setMessage("내용을 설정하시겠습니까?");
+                    builder.setPositiveButton("예",
+                            new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialogInterface, int i) {
+                                    turnOFFeditMode();
+                                }
+                            });
+                    builder.setNegativeButton("아니오",
+                            new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialogInterface, int i) {
 
-                               }
-                           });
-                   builder.show();
-               }
-               else{
-                   builder.setTitle("편집모드로 전환하시겠습니까?");
-                   builder.setMessage("악의적 편집은 어플 정책에 따라 제제 처리가 이루어 질 수 있습니다.");
-                   builder.setPositiveButton("예",
-                           new DialogInterface.OnClickListener() {
-                               @Override
-                               public void onClick(DialogInterface dialogInterface, int i) {
-                                   turnOnEditMode();
-                               }
-                           });
-                   builder.setNegativeButton("아니오",
-                           new DialogInterface.OnClickListener() {
-                               @Override
-                               public void onClick(DialogInterface dialogInterface, int i) {
+                                }
+                            });
+                    builder.show();
+                }
+                else{
+                    builder.setTitle("편집모드로 전환하시겠습니까?");
+                    builder.setMessage("악의적 편집은 어플 정책에 따라 제제 처리가 이루어 질 수 있습니다.");
+                    builder.setPositiveButton("예",
+                            new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialogInterface, int i) {
+                                    turnOnEditMode();
+                                }
+                            });
+                    builder.setNegativeButton("아니오",
+                            new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialogInterface, int i) {
 
-                               }
-                           });
-                   builder.show();
-               }
+                                }
+                            });
+                    builder.show();
+                }
             }
         });
         editMainImageButton.setOnClickListener(new View.OnClickListener() {
@@ -189,6 +200,13 @@ public class StoreInfoActivity extends AppCompatActivity {
                 intent.setType("image/*");
                 intent.setAction(Intent.ACTION_GET_CONTENT);
                 startActivityForResult(intent, PICK_IMAGE);
+            }
+        });
+        cateEditButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getApplicationContext(),EditEntertainMent.class);
+                startActivityForResult(intent,EDIT_CATEGORY);
             }
         });
     }
@@ -204,7 +222,7 @@ public class StoreInfoActivity extends AppCompatActivity {
         cateEditButton.setVisibility(View.GONE);
         editMainImageButton.setVisibility(View.GONE);
     }
-    public static final int PICK_IMAGE = 1;
+    public static final int PICK_IMAGE = 1,EDIT_CATEGORY=2;
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         // Check which request we're responding to
@@ -222,6 +240,11 @@ public class StoreInfoActivity extends AppCompatActivity {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
+            }
+        }
+        if(resultCode==EDIT_CATEGORY){
+            if(StoreData.category!=null){
+                categoryTextView.setText(StoreData.category);
             }
         }
     }
@@ -262,6 +285,7 @@ public class StoreInfoActivity extends AppCompatActivity {
         private static final String ARG_SECTION_NUMBER = "section_number";
 
         public PlaceholderFragment() {
+
         }
 
         /**

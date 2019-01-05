@@ -9,9 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.beoks.gameis.weple.DataClass.Profile;
 import com.example.beoks.gameis.weple.R;
 
 import javax.mail.internet.AddressException;
@@ -55,7 +53,7 @@ public class JoinActivityStep1 extends AppCompatActivity {
     private void initViewinstance(){
         textView=(TextView)findViewById(R.id.textView);
         emailEditText=(EditText)findViewById(R.id.editText);
-        clickButton=(Button)findViewById(R.id.button);
+        clickButton=(Button)findViewById(R.id.entertain_clickButton);
     }
     private void setTextView(String type){
         if(type.equals("customer")){
