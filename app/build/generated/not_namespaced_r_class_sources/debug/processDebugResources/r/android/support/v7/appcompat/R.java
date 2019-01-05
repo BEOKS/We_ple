@@ -694,23 +694,23 @@ public final class R {
         public static final int src_in = 0x7f0900e4;
         public static final int src_over = 0x7f0900e5;
         public static final int start = 0x7f0900e7;
-        public static final int submenuarrow = 0x7f0900ef;
-        public static final int submit_area = 0x7f0900f0;
-        public static final int tabMode = 0x7f0900f4;
-        public static final int tag_transition_group = 0x7f0900f6;
-        public static final int text = 0x7f0900f8;
-        public static final int text2 = 0x7f0900f9;
-        public static final int textSpacerNoButtons = 0x7f0900fa;
-        public static final int textSpacerNoTitle = 0x7f0900fb;
-        public static final int time = 0x7f090109;
-        public static final int title = 0x7f09010a;
-        public static final int titleDividerNoCustom = 0x7f09010b;
-        public static final int title_template = 0x7f09010c;
-        public static final int top = 0x7f09010d;
-        public static final int topPanel = 0x7f09010e;
-        public static final int uniform = 0x7f090116;
-        public static final int up = 0x7f090117;
-        public static final int wrap_content = 0x7f090122;
+        public static final int submenuarrow = 0x7f0900f3;
+        public static final int submit_area = 0x7f0900f4;
+        public static final int tabMode = 0x7f0900f8;
+        public static final int tag_transition_group = 0x7f0900fa;
+        public static final int text = 0x7f0900fc;
+        public static final int text2 = 0x7f0900fd;
+        public static final int textSpacerNoButtons = 0x7f0900fe;
+        public static final int textSpacerNoTitle = 0x7f0900ff;
+        public static final int time = 0x7f09010d;
+        public static final int title = 0x7f09010e;
+        public static final int titleDividerNoCustom = 0x7f09010f;
+        public static final int title_template = 0x7f090110;
+        public static final int top = 0x7f090111;
+        public static final int topPanel = 0x7f090112;
+        public static final int uniform = 0x7f09011a;
+        public static final int up = 0x7f09011b;
+        public static final int wrap_content = 0x7f090126;
     }
     public static final class integer {
         private integer() {}

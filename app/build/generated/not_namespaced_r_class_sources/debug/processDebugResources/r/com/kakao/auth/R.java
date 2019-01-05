@@ -125,12 +125,12 @@ public final class R {
         public static final int progress_bar = 0x7f0900b6;
         public static final int right_icon = 0x7f0900bb;
         public static final int right_side = 0x7f0900bc;
-        public static final int tag_transition_group = 0x7f0900f6;
-        public static final int text = 0x7f0900f8;
-        public static final int text2 = 0x7f0900f9;
-        public static final int time = 0x7f090109;
-        public static final int title = 0x7f09010a;
-        public static final int webview = 0x7f09011e;
+        public static final int tag_transition_group = 0x7f0900fa;
+        public static final int text = 0x7f0900fc;
+        public static final int text2 = 0x7f0900fd;
+        public static final int time = 0x7f09010d;
+        public static final int title = 0x7f09010e;
+        public static final int webview = 0x7f090122;
     }
     public static final class integer {
         private integer() {}

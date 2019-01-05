@@ -17,12 +17,17 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.beoks.gameis.weple.DataClass.Store.Store;
 import com.example.beoks.gameis.weple.R;
 
 public class StoreInfoActivity extends AppCompatActivity {
+
+    public Store store;
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -38,11 +43,16 @@ public class StoreInfoActivity extends AppCompatActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
-
+    private Button backButton,likeButton,allEditButton,cateEditButton;
+    private ImageView imageView;
+    private TextView likeTextView,categoryTextView,nameTextView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_store_info);
+        getStoreData();
+        initAppBar();
+
 
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
@@ -66,6 +76,41 @@ public class StoreInfoActivity extends AppCompatActivity {
             }
         });
 
+    }
+    private void getStoreData(){
+        if(StoreData.store==null){
+            Toast.makeText(getApplicationContext(),"가게 정보 연결 실패",Toast.LENGTH_SHORT).show();
+            finish();
+        }
+        else{
+            this.store=StoreData.store;
+        }
+    }
+    private void initAppBar(){
+        backButton=findViewById(R.id.auth_backButton);
+        likeButton=findViewById(R.id.storeInfo_likeButton);
+        allEditButton=findViewById(R.id.storeInfo_all_editButton);
+        cateEditButton=findViewById(R.id.storeInfo_cate_name_editButton);
+
+        imageView=findViewById(R.id.storeInfo_mainImage);
+
+        likeTextView=findViewById(R.id.storeInfo_likeCount);
+        categoryTextView=findViewById(R.id.storeInfo_categoryTextView);
+        nameTextView=findViewById(R.id.storeInfo_nameTextView);
+
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
+
+        likeTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 
 

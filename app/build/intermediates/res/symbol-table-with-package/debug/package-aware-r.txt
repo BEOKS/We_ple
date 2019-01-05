@@ -1135,9 +1135,13 @@ id src_over
 id standard
 id start
 id status_bar_latest_event_content
+id storeInfo_all_editButton
+id storeInfo_cate_name_editButton
+id storeInfo_categoryTextView
 id storeInfo_likeButton
 id storeInfo_likeCount
 id storeInfo_mainImage
+id storeInfo_nameTextView
 id storeList_add_new_loc
 id storeList_backButton
 id storeList_linearlayout

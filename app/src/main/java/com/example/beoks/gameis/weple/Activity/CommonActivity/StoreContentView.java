@@ -8,5 +8,7 @@ import com.example.beoks.gameis.weple.DataClass.Store.StoreContent;
 public class StoreContentView extends LinearLayout {
     public StoreContentView(Context context, StoreContent storeContent) {
         super(context);
+        setOrientation(LinearLayout.VERTICAL);
+
     }
 }

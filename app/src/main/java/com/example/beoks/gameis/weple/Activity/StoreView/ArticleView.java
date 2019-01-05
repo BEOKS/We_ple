@@ -5,6 +5,7 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -12,11 +13,11 @@ import com.example.beoks.gameis.weple.DataClass.Store.Article;
 import com.example.beoks.gameis.weple.R;
 
 //TODO for gowls4023
-public class ArticleView extends LinearLayout implements View.OnClickListener{
+public class ArticleView extends LinearLayout{
     public Article article;
-    TextView article_title;
+    EditText article_title;
     Button article_button_edit;
-    TextView article_content;
+    EditText article_content;
 
     public ArticleView(Context context, Article article) {
         super(context);
@@ -48,7 +49,13 @@ public class ArticleView extends LinearLayout implements View.OnClickListener{
         article_button_edit = findViewById(R.id.article_button_edit);
         article_content = findViewById(R.id.article_content);
 
-        article_button_edit.setOnClickListener(this);
+        article_button_edit.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                article_title.setEnabled(true);
+            }
+        });
+        article_button_edit.setVisibility(View.GONE);
     }
 
     public void setTitle(String txt){
@@ -59,7 +66,4 @@ public class ArticleView extends LinearLayout implements View.OnClickListener{
         article_title.setText(txt);
     }
 
-    public void onClick(View v){
-
-    }
 }

@@ -38,7 +38,7 @@
 
     <LinearLayout
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -47,6 +47,7 @@
         android:gravity="center_vertical|center_horizontal"
         android:orientation="horizontal"
         android:weightSum="1"
+        app:layout_constraintDimensionRatio="16:3.5"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/textView3">
@@ -70,7 +71,7 @@
     <Button
         android:id="@+id/loginmain_signUpButton"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -78,6 +79,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:background="@drawable/button_roundedbox_join"
+        app:layout_constraintDimensionRatio="4:1"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/loginmain_loginButton" />
@@ -85,7 +87,7 @@
     <Button
         android:id="@+id/loginmain_loginButton"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -95,7 +97,8 @@
         android:background="@drawable/button_roundedbox_login"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/loginmain_pwdEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/loginmain_pwdEditText"
+        app:layout_constraintDimensionRatio="4:1"/>
 
     <EditText
         android:id="@+id/loginmain_pwdEditText"
