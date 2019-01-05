@@ -46,6 +46,11 @@ public class MenuView extends LinearLayout {
         menu_image = findViewById(R.id.menu_image);
         menu_name = findViewById(R.id.menu_name);
         menu_price = findViewById(R.id.menu_price);
+
+        //setting
+        menu_image.setImageBitmap(menu.getImage(0));
+        menu_name.setText(menu.menuName);
+        menu_price.setText(menu.price+"원");
     }
 
     public void setImage(int id){
