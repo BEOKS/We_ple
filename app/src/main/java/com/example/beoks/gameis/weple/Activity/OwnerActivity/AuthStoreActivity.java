@@ -55,7 +55,7 @@ public class AuthStoreActivity extends AppCompatActivity {
             public void onClick(View view) {
                 final String code=codeEditText.getText().toString();
                 dialog=ProgressDialog.show(AuthStoreActivity.this,"","인증 코드 확인중...",true);
-                FirebaseDatabase.getInstance().getReference("인증코드").child(code).addValueEventListener(new ValueEventListener() {
+                FirebaseDatabase.getInstance().getReference("인증코드").child(code).addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         dialog.cancel();
