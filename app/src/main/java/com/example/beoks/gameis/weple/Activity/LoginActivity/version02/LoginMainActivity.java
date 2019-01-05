@@ -285,6 +285,7 @@ public class LoginMainActivity extends AppCompatActivity {
                             }
                             else{
                                 GlobalData.loginProfile=new Profile(mAuth.getUid());
+                                int d=0;
                             }
                             moveActivity(type);
                         } else {

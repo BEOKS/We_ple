@@ -63,7 +63,8 @@ public class StoreContent {
      * @return 저장위치
      */
     public String uploadMainImage(Bitmap bitmap){
-        StorageReference storageReference=FirebaseStorage.getInstance().getReference("Profile/Image").child(name+".jpg");
+        mainImagePath="Store/StoreContent/MainImage/"+name+".jpg";
+        StorageReference storageReference=FirebaseStorage.getInstance().getReference(mainImagePath);
         //compress bitmap
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
@@ -84,7 +85,7 @@ public class StoreContent {
                 Log.i(TAG,"이미지 업로드 완료");
             }
         });
-        return "Profile/Image/"+name+".jpg";
+        return mainImagePath;
     }
 
     /**

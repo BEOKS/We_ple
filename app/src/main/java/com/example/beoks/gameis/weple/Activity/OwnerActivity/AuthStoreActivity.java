@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.example.beoks.gameis.weple.Activity.CommonActivity.StoreData;
 import com.example.beoks.gameis.weple.Activity.CommonActivity.StoreInfoActivity;
+import com.example.beoks.gameis.weple.DataClass.GlobalData;
 import com.example.beoks.gameis.weple.DataClass.Store.Store;
 import com.example.beoks.gameis.weple.R;
 import com.google.firebase.database.DataSnapshot;
@@ -19,6 +20,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+/**
+ * 사장님이 자신의 가게를 인증하는 액티비티입니다.
+ */
 public class AuthStoreActivity extends AppCompatActivity {
     private Button backButton,okButton;
     private EditText codeEditText;
@@ -49,7 +53,7 @@ public class AuthStoreActivity extends AppCompatActivity {
         okButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String code=codeEditText.getText().toString();
+                final String code=codeEditText.getText().toString();
                 dialog=ProgressDialog.show(AuthStoreActivity.this,"","인증 코드 확인중...",true);
                 FirebaseDatabase.getInstance().getReference("인증코드").child(code).addValueEventListener(new ValueEventListener() {
                     @Override
@@ -59,17 +63,17 @@ public class AuthStoreActivity extends AppCompatActivity {
                             /**
                              * 인증코드는 항상 영문+숫자
                              */
-                            if(((String)dataSnapshot.getValue()).equals("가게 이름")){
-                                Toast.makeText(getApplicationContext(),"개발자의 테스트용",Toast.LENGTH_SHORT).show();
+                            if(dataSnapshot.child("소유자").exists()){
+                                Toast.makeText(getApplicationContext(),"이미 주인이 등록되었습니다.",Toast.LENGTH_SHORT).show();
                             }
                             else{
                                 Toast.makeText(getApplicationContext(),"인증되었습니다.",Toast.LENGTH_SHORT).show();
-                                String storeName=(String)dataSnapshot.getValue();
-
+                                String storeName=(String)dataSnapshot.child("name").getValue();
+                                FirebaseDatabase.getInstance().getReference("인증코드").child(code).child("소유자").setValue(GlobalData.loginProfile.key);
                                 StoreData.store=new Store();
                                 StoreData.store.name=storeName;
                                 Intent intent=new Intent(getApplicationContext(),StoreInfoActivity.class);
-                                intent.putExtra(NAME,(String)dataSnapshot.getValue());
+                                intent.putExtra(NAME,storeName);
                                 startActivity(intent);
                                 finish();
                             }
