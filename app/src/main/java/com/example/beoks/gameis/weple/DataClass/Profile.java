@@ -25,10 +25,13 @@ import java.util.HashMap;
  * 데이터 : 닉네임, 이메일, 프로필이미지 저장소위치(클라우드),타입
  */
 public class Profile {
-    private final String TAG="Profile";
+    public final String TAG="Profile";
     public String key;
     //value instance
     public String name,email,profileImagePath,type;
+    public Profile(){
+
+    }
     /**
      *  새로운 프로필을 생성 후 파이어베이스에 업로드
      * @param key
