@@ -63,7 +63,7 @@ public class ArticleView extends LinearLayout{
     }
 
     public void setContent(String txt){
-        article_title.setText(txt);
+        article_content.setText(txt);
     }
 
 }
