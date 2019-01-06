@@ -37,4 +37,6 @@ dependencies {
     //kakao
     implementation 'com.kakao.sdk:usermgmt:1.15.1'
     implementation 'com.sun.mail:javax.mail:1.6.2'
+
+    implementation 'com.google.android:flexbox:0.3.2'
 }

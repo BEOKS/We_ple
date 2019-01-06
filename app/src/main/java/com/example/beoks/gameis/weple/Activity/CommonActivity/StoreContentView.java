@@ -31,11 +31,14 @@ public class StoreContentView extends LinearLayout {
     public Button hashTagEditButton,menuEditButton,addInfoEditButton;
     public TextView addInfoTextView;
 
-    public StoreContentView(Context context, StoreContent storeContent) {
+    public String type;
+
+    public StoreContentView(Context context, StoreContent storeContent,String type) {
         super(context);
         setOrientation(LinearLayout.VERTICAL);
         this.context=context;
         this.storeContent=storeContent;
+        this.type=type;
         String inflaterService = Context.LAYOUT_INFLATER_SERVICE;
         LayoutInflater layoutInflater = (LayoutInflater) getContext().getSystemService(inflaterService);
         View view = layoutInflater.inflate(R.layout.store_content_view, this, false);
@@ -70,7 +73,7 @@ public class StoreContentView extends LinearLayout {
             public void onClick(View view) {
                 //TODO 해쉬태그 변경창으로 이동
                 Intent intent=new Intent(context,TagEditActivity.class);
-                intent.putStringArrayListExtra("hashTag", (ArrayList<String>) storeContent.hashTag);
+                intent.putExtra("type",type);
                 context.startActivity(intent);
 
             }

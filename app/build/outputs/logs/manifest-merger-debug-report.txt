@@ -14,6 +14,7 @@ MERGED from [com.google.firebase:firebase-storage:16.0.3] C:\Users\JAESEONG LEE\
 MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\c98e303d50859e6d9d7e9ae207f4f29c\AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\9b145217fb09134353418ba1b34bb058\AndroidManifest.xml:17:1-39:12
 MERGED from [com.kakao.sdk:usermgmt:1.15.1] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\usermgmt-1.15.1.aar\a5dcf42d6531e6d40156780986a1c93b\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android:flexbox:0.3.2] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\flexbox-0.3.2.aar\0f66bbb277a7a9ec6a2313d5d6e1baa7\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e752d59402bf910a9589e5eace4a4ecb\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\57e6e6a14bee340bac0ceccb897e847b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.kakao.sdk:auth:1.15.1] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\auth-1.15.1.aar\f7b28d0579a312b3a3311c4eb3966a9f\AndroidManifest.xml:2:1-22:12
@@ -280,6 +281,8 @@ MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\JAESEONG
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\9b145217fb09134353418ba1b34bb058\AndroidManifest.xml:20:5-44
 MERGED from [com.kakao.sdk:usermgmt:1.15.1] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\usermgmt-1.15.1.aar\a5dcf42d6531e6d40156780986a1c93b\AndroidManifest.xml:10:5-12:41
 MERGED from [com.kakao.sdk:usermgmt:1.15.1] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\usermgmt-1.15.1.aar\a5dcf42d6531e6d40156780986a1c93b\AndroidManifest.xml:10:5-12:41
+MERGED from [com.google.android:flexbox:0.3.2] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\flexbox-0.3.2.aar\0f66bbb277a7a9ec6a2313d5d6e1baa7\AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android:flexbox:0.3.2] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\flexbox-0.3.2.aar\0f66bbb277a7a9ec6a2313d5d6e1baa7\AndroidManifest.xml:23:5-25:41
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e752d59402bf910a9589e5eace4a4ecb\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e752d59402bf910a9589e5eace4a4ecb\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\JAESEONG LEE\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\57e6e6a14bee340bac0ceccb897e847b\AndroidManifest.xml:20:5-44

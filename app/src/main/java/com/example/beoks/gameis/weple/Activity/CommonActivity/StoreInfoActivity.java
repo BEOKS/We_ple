@@ -342,11 +342,11 @@ public class StoreInfoActivity extends AppCompatActivity {
             int pageNumber=getArguments().getInt(ARG_SECTION_NUMBER);
             LinearLayout linearLayout =rootView.findViewById(R.id.fragment_layout);
             if(pageNumber==1){
-                StoreInfoActivity.wikiContentView=new StoreContentView(getContext(),StoreData.store.wikiContent);
+                StoreInfoActivity.wikiContentView=new StoreContentView(getContext(),StoreData.store.wikiContent,"wiki");
                 linearLayout.addView(StoreInfoActivity.wikiContentView);
             }
             if(pageNumber==2){
-                StoreInfoActivity.ownerContentView=new StoreContentView(getContext(),StoreData.store.ownerContent);
+                StoreInfoActivity.ownerContentView=new StoreContentView(getContext(),StoreData.store.ownerContent,"owner");
                 linearLayout.addView(StoreInfoActivity.ownerContentView);
             }
             if(pageNumber==3){

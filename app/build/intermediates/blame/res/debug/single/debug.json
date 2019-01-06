@@ -96,6 +96,10 @@
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4385f75c4af76465a1552f3bb418fa89\\res\\drawable\\tooltip_frame_dark.xml"
     },
     {
+        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_remove_black_24dp.png.flat",
+        "source": "C:\\android\\We_ple3\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_remove_black_24dp.png"
+    },
+    {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4385f75c4af76465a1552f3bb418fa89\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
@@ -106,10 +110,6 @@
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\8c74f5a3847fe7a0b2d4bc76c2675da0\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
-    },
-    {
-        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_remove_black_24dp.png.flat",
-        "source": "C:\\android\\We_ple3\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_remove_black_24dp.png"
     },
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
@@ -964,12 +964,12 @@
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4385f75c4af76465a1552f3bb418fa89\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\112d7805121793285f4a416d84d36a83\\res\\layout\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4385f75c4af76465a1552f3bb418fa89\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\112d7805121793285f4a416d84d36a83\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
@@ -1240,20 +1240,20 @@
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4385f75c4af76465a1552f3bb418fa89\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\android\\We_ple3\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4385f75c4af76465a1552f3bb418fa89\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_store_info.xml.flat",
         "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\menu\\menu_store_info.xml"
     },
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_store_info.xml.flat",
         "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\layout\\activity_store_info.xml"
+    },
+    {
+        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\android\\We_ple3\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4385f75c4af76465a1552f3bb418fa89\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -1336,16 +1336,16 @@
         "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\layout\\card_view.xml"
     },
     {
+        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_remove_black_24dp.png.flat",
+        "source": "C:\\android\\We_ple3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_remove_black_24dp.png"
+    },
+    {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4385f75c4af76465a1552f3bb418fa89\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4385f75c4af76465a1552f3bb418fa89\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_remove_black_24dp.png.flat",
-        "source": "C:\\android\\We_ple3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_remove_black_24dp.png"
     },
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_separator.xml.flat",
@@ -1390,6 +1390,10 @@
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\13d34600add86093624f7777cb5cc36d\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\layout_tag_button.xml.flat",
+        "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\layout\\tag_button.xml"
     },
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
@@ -1506,6 +1510,10 @@
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_select_dialog_material.xml.flat",
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4385f75c4af76465a1552f3bb418fa89\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_addtag.png.flat",
+        "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\drawable\\btn_addtag.png"
     },
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_join_step5.xml.flat",
@@ -1768,12 +1776,12 @@
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4385f75c4af76465a1552f3bb418fa89\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\8c74f5a3847fe7a0b2d4bc76c2675da0\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
-    },
-    {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_snslogin_google.9.png.flat",
         "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\drawable\\button_snslogin_google.9.png"
+    },
+    {
+        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
+        "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\8c74f5a3847fe7a0b2d4bc76c2675da0\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
@@ -2096,12 +2104,12 @@
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4385f75c4af76465a1552f3bb418fa89\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\8c74f5a3847fe7a0b2d4bc76c2675da0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_roundedbox_join.9.png.flat",
         "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\drawable\\button_roundedbox_join.9.png"
+    },
+    {
+        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\8c74f5a3847fe7a0b2d4bc76c2675da0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_account.png.flat",

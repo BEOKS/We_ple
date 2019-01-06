@@ -64,16 +64,21 @@ public class Store {
                 wikiContent=store.wikiContent;
                 ownerContent=store.ownerContent;
                 simpleReview=store.simpleReview;
-                longReviewList=dataSnapshot.child("longReviewList").getValue(ArrayList.class);
+                longReviewList=dataSnapshot.child("longReviewList").getValue(ArrayList.class)==null?new ArrayList<LongReview>()
+                        :dataSnapshot.child("longReviewList").getValue(ArrayList.class);
                 likeCount=store.likeCount;
-                likeUser=dataSnapshot.child("likeUser").getValue(ArrayList.class);
+                likeUser=dataSnapshot.child("likeUser").getValue(ArrayList.class)==null?new ArrayList<String>()
+                        :dataSnapshot.child("likeUser").getValue(ArrayList.class);
                 ownerExist=store.ownerExist;
                 ownerKey=store.ownerKey;
                 waitingOn=store.waitingOn;
                 seatOn=store.seatOn;
                 seatNum=store.seatNum;
                 maxSeatNum=store.maxSeatNum;
-                waitInfoList=dataSnapshot.child("waitInfoListr").getValue(ArrayList.class);
+                waitInfoList=dataSnapshot.child("waitInfoListr").getValue(ArrayList.class)==null?new ArrayList<WaitInfo>()
+                        :dataSnapshot.child("waitInfoListr").getValue(ArrayList.class);
+
+
             }
 
             @Override

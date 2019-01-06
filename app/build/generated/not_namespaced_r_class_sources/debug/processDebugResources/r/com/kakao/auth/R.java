@@ -17,15 +17,15 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int font = 0x7f0400a3;
-        public static final int fontProviderAuthority = 0x7f0400a5;
-        public static final int fontProviderCerts = 0x7f0400a6;
-        public static final int fontProviderFetchStrategy = 0x7f0400a7;
-        public static final int fontProviderFetchTimeout = 0x7f0400a8;
-        public static final int fontProviderPackage = 0x7f0400a9;
-        public static final int fontProviderQuery = 0x7f0400aa;
-        public static final int fontStyle = 0x7f0400ab;
-        public static final int fontWeight = 0x7f0400ac;
+        public static final int font = 0x7f0400aa;
+        public static final int fontProviderAuthority = 0x7f0400ac;
+        public static final int fontProviderCerts = 0x7f0400ad;
+        public static final int fontProviderFetchStrategy = 0x7f0400ae;
+        public static final int fontProviderFetchTimeout = 0x7f0400af;
+        public static final int fontProviderPackage = 0x7f0400b0;
+        public static final int fontProviderQuery = 0x7f0400b1;
+        public static final int fontStyle = 0x7f0400b2;
+        public static final int fontWeight = 0x7f0400b3;
     }
     public static final class bool {
         private bool() {}
@@ -35,15 +35,15 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int com_kakao_account_button_background = 0x7f06002b;
-        public static final int com_kakao_brown = 0x7f06002c;
-        public static final int com_kakao_button_background_press = 0x7f06002d;
-        public static final int com_kakao_button_text_press = 0x7f06002e;
-        public static final int com_kakao_cancel_button_background = 0x7f06002f;
-        public static final int notification_action_color_filter = 0x7f06005c;
-        public static final int notification_icon_bg_color = 0x7f06005d;
-        public static final int ripple_material_light = 0x7f060068;
-        public static final int secondary_text_default_material_light = 0x7f06006a;
+        public static final int com_kakao_account_button_background = 0x7f06002c;
+        public static final int com_kakao_brown = 0x7f06002d;
+        public static final int com_kakao_button_background_press = 0x7f06002e;
+        public static final int com_kakao_button_text_press = 0x7f06002f;
+        public static final int com_kakao_cancel_button_background = 0x7f060030;
+        public static final int notification_action_color_filter = 0x7f06005d;
+        public static final int notification_icon_bg_color = 0x7f06005e;
+        public static final int ripple_material_light = 0x7f060069;
+        public static final int secondary_text_default_material_light = 0x7f06006b;
     }
     public static final class dimen {
         private dimen() {}
@@ -75,30 +75,30 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int kakao_account_button_background = 0x7f08008d;
-        public static final int kakao_account_logo = 0x7f08008e;
-        public static final int kakao_cancel_button_background = 0x7f08008f;
-        public static final int kakao_default_profile_image = 0x7f080090;
-        public static final int kakao_editable_profile = 0x7f080091;
-        public static final int kakao_login_bar = 0x7f080092;
-        public static final int kakao_login_button_background = 0x7f080093;
-        public static final int kakao_login_symbol = 0x7f080094;
-        public static final int kakao_profile_boxbg = 0x7f080095;
-        public static final int kakaoaccount_icon = 0x7f080096;
-        public static final int kakaostory_icon = 0x7f080097;
-        public static final int kakaotalk_icon = 0x7f080098;
-        public static final int notification_action_background = 0x7f08009a;
-        public static final int notification_bg = 0x7f08009b;
-        public static final int notification_bg_low = 0x7f08009c;
-        public static final int notification_bg_low_normal = 0x7f08009d;
-        public static final int notification_bg_low_pressed = 0x7f08009e;
-        public static final int notification_bg_normal = 0x7f08009f;
-        public static final int notification_bg_normal_pressed = 0x7f0800a0;
-        public static final int notification_icon_background = 0x7f0800a1;
-        public static final int notification_template_icon_bg = 0x7f0800a2;
-        public static final int notification_template_icon_low_bg = 0x7f0800a3;
-        public static final int notification_tile_bg = 0x7f0800a4;
-        public static final int notify_panel_notification_icon_bg = 0x7f0800a5;
+        public static final int kakao_account_button_background = 0x7f08008e;
+        public static final int kakao_account_logo = 0x7f08008f;
+        public static final int kakao_cancel_button_background = 0x7f080090;
+        public static final int kakao_default_profile_image = 0x7f080091;
+        public static final int kakao_editable_profile = 0x7f080092;
+        public static final int kakao_login_bar = 0x7f080093;
+        public static final int kakao_login_button_background = 0x7f080094;
+        public static final int kakao_login_symbol = 0x7f080095;
+        public static final int kakao_profile_boxbg = 0x7f080096;
+        public static final int kakaoaccount_icon = 0x7f080097;
+        public static final int kakaostory_icon = 0x7f080098;
+        public static final int kakaotalk_icon = 0x7f080099;
+        public static final int notification_action_background = 0x7f08009b;
+        public static final int notification_bg = 0x7f08009c;
+        public static final int notification_bg_low = 0x7f08009d;
+        public static final int notification_bg_low_normal = 0x7f08009e;
+        public static final int notification_bg_low_pressed = 0x7f08009f;
+        public static final int notification_bg_normal = 0x7f0800a0;
+        public static final int notification_bg_normal_pressed = 0x7f0800a1;
+        public static final int notification_icon_background = 0x7f0800a2;
+        public static final int notification_template_icon_bg = 0x7f0800a3;
+        public static final int notification_template_icon_low_bg = 0x7f0800a4;
+        public static final int notification_tile_bg = 0x7f0800a5;
+        public static final int notify_panel_notification_icon_bg = 0x7f0800a6;
     }
     public static final class id {
         private id() {}
@@ -109,28 +109,28 @@ public final class R {
         public static final int action_text = 0x7f090018;
         public static final int actions = 0x7f090019;
         public static final int async = 0x7f090025;
-        public static final int blocking = 0x7f09002c;
-        public static final int chronometer = 0x7f090039;
-        public static final int forever = 0x7f09006d;
-        public static final int icon = 0x7f090082;
-        public static final int icon_group = 0x7f090083;
-        public static final int info = 0x7f090089;
-        public static final int italic = 0x7f09008b;
-        public static final int line1 = 0x7f090090;
-        public static final int line3 = 0x7f090091;
-        public static final int normal = 0x7f0900b9;
-        public static final int notification_background = 0x7f0900ba;
-        public static final int notification_main_column = 0x7f0900bb;
-        public static final int notification_main_column_container = 0x7f0900bc;
-        public static final int progress_bar = 0x7f0900c5;
-        public static final int right_icon = 0x7f0900ca;
-        public static final int right_side = 0x7f0900cb;
-        public static final int tag_transition_group = 0x7f090109;
-        public static final int text = 0x7f09010b;
-        public static final int text2 = 0x7f09010c;
-        public static final int time = 0x7f09011d;
-        public static final int title = 0x7f09011e;
-        public static final int webview = 0x7f090132;
+        public static final int blocking = 0x7f09002d;
+        public static final int chronometer = 0x7f09003a;
+        public static final int forever = 0x7f090076;
+        public static final int icon = 0x7f09008b;
+        public static final int icon_group = 0x7f09008c;
+        public static final int info = 0x7f090092;
+        public static final int italic = 0x7f090094;
+        public static final int line1 = 0x7f090099;
+        public static final int line3 = 0x7f09009a;
+        public static final int normal = 0x7f0900c4;
+        public static final int notification_background = 0x7f0900c5;
+        public static final int notification_main_column = 0x7f0900c6;
+        public static final int notification_main_column_container = 0x7f0900c7;
+        public static final int progress_bar = 0x7f0900d1;
+        public static final int right_icon = 0x7f0900d6;
+        public static final int right_side = 0x7f0900d7;
+        public static final int tag_transition_group = 0x7f09011a;
+        public static final int text = 0x7f09011c;
+        public static final int text2 = 0x7f09011d;
+        public static final int time = 0x7f09012e;
+        public static final int title = 0x7f09012f;
+        public static final int webview = 0x7f090143;
     }
     public static final class integer {
         private integer() {}
@@ -196,14 +196,14 @@ public final class R {
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] FontFamily = { 0x7f0400a5, 0x7f0400a6, 0x7f0400a7, 0x7f0400a8, 0x7f0400a9, 0x7f0400aa };
+        public static final int[] FontFamily = { 0x7f0400ac, 0x7f0400ad, 0x7f0400ae, 0x7f0400af, 0x7f0400b0, 0x7f0400b1 };
         public static final int FontFamily_fontProviderAuthority = 0;
         public static final int FontFamily_fontProviderCerts = 1;
         public static final int FontFamily_fontProviderFetchStrategy = 2;
         public static final int FontFamily_fontProviderFetchTimeout = 3;
         public static final int FontFamily_fontProviderPackage = 4;
         public static final int FontFamily_fontProviderQuery = 5;
-        public static final int[] FontFamilyFont = { 0x1010532, 0x1010533, 0x101053f, 0x7f0400a3, 0x7f0400ab, 0x7f0400ac };
+        public static final int[] FontFamilyFont = { 0x1010532, 0x1010533, 0x101053f, 0x7f0400aa, 0x7f0400b2, 0x7f0400b3 };
         public static final int FontFamilyFont_android_font = 0;
         public static final int FontFamilyFont_android_fontWeight = 1;
         public static final int FontFamilyFont_android_fontStyle = 2;
