@@ -7,5 +7,323 @@
     tools:context=".Activity.CustomerActivity.CustomerStoreListActivity">
 
 
+    <android.support.constraint.Guideline
+        android:id="@+id/storeList2_gd_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.02"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/storeList2_gd_rigt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.98"/>
+
+    <Button
+        android:id="@+id/menuButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="@id/storeList2_gd_mid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/wepleLogo"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:contentDescription="Logo"
+        android:src="@drawable/asset_logotype"
+        app:layout_constraintTop_toTopOf = "parent"
+        app:layout_constraintBottom_toBottomOf = "@id/storeList2_gd_mid"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/storeList2_gd_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#1fa09494"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/storeList2_gd_mid">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/searchText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="#북문맛집 #중국집 #분위기좋은"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/searchButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="102dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginStart="25dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/horizonButton1"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:text="Button" />
+
+                    <TextView
+                        android:id="@+id/horizonText1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="음식"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/horizonButton2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:text="Button" />
+
+                    <TextView
+                        android:id="@+id/horizonText2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="카페/디\n저트"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/horizonButton3"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:text="Button" />
+
+                    <TextView
+                        android:id="@+id/horizonText3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="생활"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/horizonButton4"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:text="Button" />
+
+                    <TextView
+                        android:id="@+id/horizonText4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="엔터테인먼트"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/horizonButton5"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:text="Button" />
+
+                    <TextView
+                        android:id="@+id/horizonText5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="술집"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/horizonButton6"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:text="Button" />
+
+                    <TextView
+                        android:id="@+id/horizonText6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="음식"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/horizonButton7"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:text="Button" />
+
+                    <TextView
+                        android:id="@+id/horizonText7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="카페/디\n저트"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/storeList2_gd_mid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.37" />
+
+
+    <TableLayout
+        android:id="@+id/cardTable"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+    </TableLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/storeList2_gd_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.97" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/storeList2_gd_bottom"
+        app:layout_constraintRight_toRightOf="@id/storeList2_gd_rigt">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/addButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/account"
+            tools:layout_editor_absoluteY="242dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/locateButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/account"
+            tools:layout_editor_absoluteY="242dp" />
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
