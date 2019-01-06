@@ -1073,6 +1073,7 @@ id nav_send
 id nav_share
 id nav_slideshow
 id navigation_header_container
+id nestedScrollView
 id never
 id none
 id normal
@@ -1250,6 +1251,7 @@ layout activity_join_step5
 layout activity_kakao_webview
 layout activity_main
 layout activity_maps
+layout activity_review_content_view
 layout activity_setting_store
 layout activity_store_info
 layout activity_store_list

@@ -35,7 +35,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.beoks.gameis.weple.Activity.MainActivity" >
             <intent-filter>
@@ -89,6 +88,7 @@
             android:name="com.example.beoks.gameis.weple.Activity.CommonActivity.StoreInfoActivity"
             android:label="@string/title_activity_store_info" />
         <activity android:name="com.example.beoks.gameis.weple.Activity.CommonActivity.EditEntertainMent" />
+        <activity android:name="com.example.beoks.gameis.weple.Activity.CommonActivity.ReviewContentView" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

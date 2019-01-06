@@ -71,7 +71,8 @@
         <activity
             android:name=".Activity.CommonActivity.StoreInfoActivity"
             android:label="@string/title_activity_store_info" />
-        <activity android:name=".Activity.CommonActivity.EditEntertainMent"></activity>
+        <activity android:name=".Activity.CommonActivity.EditEntertainMent" />
+        <activity android:name=".Activity.CommonActivity.ReviewContentView"></activity>
     </application>
 
 </manifest>

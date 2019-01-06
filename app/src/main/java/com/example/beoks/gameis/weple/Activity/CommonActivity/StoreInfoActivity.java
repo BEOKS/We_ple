@@ -7,6 +7,7 @@ import android.graphics.BitmapFactory;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -313,7 +314,17 @@ public class StoreInfoActivity extends AppCompatActivity {
             View rootView = inflater.inflate(R.layout.fragment_store_info, container, false);
             //TODO 각각의 뷰 생성후 추가하기
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+            int pageNumber=getArguments().getInt(ARG_SECTION_NUMBER);
+            NestedScrollView nestedScrollView=rootView.findViewById(R.id.nestedScrollView);
+            if(pageNumber==1){
+                nestedScrollView.addView(new StoreContentView(getContext(),StoreData.store.wikiContent));
+            }
+            if(pageNumber==2){
+                nestedScrollView.addView(new StoreContentView(getContext(),StoreData.store.ownerContent));
+            }
+            if(pageNumber==3){
+
+            }
             return rootView;
         }
     }

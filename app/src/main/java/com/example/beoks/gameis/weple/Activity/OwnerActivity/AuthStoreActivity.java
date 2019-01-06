@@ -70,23 +70,8 @@ public class AuthStoreActivity extends AppCompatActivity {
                                 Toast.makeText(getApplicationContext(),"인증되었습니다.",Toast.LENGTH_SHORT).show();
                                 final String storeName=(String)dataSnapshot.child("name").getValue();
                                 FirebaseDatabase.getInstance().getReference("인증코드").child(code).child("소유자").setValue(GlobalData.loginProfile.key);
-                                FirebaseDatabase.getInstance().getReference("Store").child(storeName).addListenerForSingleValueEvent(new ValueEventListener() {
-                                    @Override
-                                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                                        if(dataSnapshot.exists()){
-                                            StoreData.store=new Store(storeName,true);
-                                        }
-                                        else{
-                                            StoreData.store=new Store(storeName,false);
-                                            FirebaseDatabase.getInstance().getReference("Store").child(storeName).setValue(StoreData.store);
-                                        }
-                                    }
-
-                                    @Override
-                                    public void onCancelled(@NonNull DatabaseError databaseError) {
-                                        Toast.makeText(getApplicationContext(),"다운로드 중단됨",Toast.LENGTH_SHORT).show();
-                                    }
-                                });
+                                StoreData.store=new Store(storeName,false);
+                                FirebaseDatabase.getInstance().getReference("Store").child(storeName).setValue(StoreData.store);
                                 Intent intent=new Intent(getApplicationContext(),StoreInfoActivity.class);
                                 intent.putExtra("type","owner");
                                 startActivity(intent);
