@@ -36,11 +36,11 @@ public class Store {
     }
 
     public Store(String name,boolean isDownload){
+        this.name=name;
         if(isDownload){
             syncData(0);
         }
         else{
-            this.name=name;
             ownerContent.name=name;
             wikiContent.name=name;
         }

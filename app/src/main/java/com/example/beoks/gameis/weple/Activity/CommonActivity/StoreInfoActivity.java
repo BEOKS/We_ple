@@ -4,6 +4,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -26,11 +27,13 @@ import android.view.ViewGroup;
 
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.beoks.gameis.weple.DataClass.GlobalData;
 import com.example.beoks.gameis.weple.DataClass.Store.Store;
+import com.example.beoks.gameis.weple.DataClass.Store.StoreContent;
 import com.example.beoks.gameis.weple.R;
 
 import java.io.InputStream;
@@ -44,6 +47,7 @@ public class StoreInfoActivity extends AppCompatActivity {
     public String type;
     private boolean isOwner=false;
 
+    public static StoreContentView wikiContentView,ownerContentView;
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
      * fragments for each of the sections. We use a
@@ -313,14 +317,15 @@ public class StoreInfoActivity extends AppCompatActivity {
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_store_info, container, false);
             //TODO 각각의 뷰 생성후 추가하기
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             int pageNumber=getArguments().getInt(ARG_SECTION_NUMBER);
-            NestedScrollView nestedScrollView=rootView.findViewById(R.id.nestedScrollView);
+            LinearLayout linearLayout =rootView.findViewById(R.id.fragment_layout);
             if(pageNumber==1){
-                nestedScrollView.addView(new StoreContentView(getContext(),StoreData.store.wikiContent));
+                StoreInfoActivity.wikiContentView=new StoreContentView(getContext(),StoreData.store.wikiContent);
+                linearLayout.addView(StoreInfoActivity.wikiContentView);
             }
             if(pageNumber==2){
-                nestedScrollView.addView(new StoreContentView(getContext(),StoreData.store.ownerContent));
+                StoreInfoActivity.ownerContentView=new StoreContentView(getContext(),StoreData.store.ownerContent);
+                linearLayout.addView(StoreInfoActivity.ownerContentView);
             }
             if(pageNumber==3){
 

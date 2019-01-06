@@ -65,8 +65,8 @@ public class StoreContentView extends LinearLayout {
                 //TODO 메뉴 변경창으로 이동
             }
         });
-        addInfoEditButton=findViewById(R.id.content_edit_addInfo_button);
-        addInfoTextView.setOnClickListener(new OnClickListener() {
+        addInfoEditButton=findViewById(R.id.content_info_edit_button);
+        addInfoEditButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 //TODO 부가정보 변경 창으로 이동

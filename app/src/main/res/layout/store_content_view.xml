@@ -126,7 +126,7 @@
         app:layout_constraintTop_toBottomOf="@id/content_menuLayout">
 
         <Button
-            android:id="@+id/content_edit_addInfo_button"
+            android:id="@+id/content_info_edit_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"

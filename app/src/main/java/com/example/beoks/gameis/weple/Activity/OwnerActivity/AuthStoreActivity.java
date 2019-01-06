@@ -67,15 +67,41 @@ public class AuthStoreActivity extends AppCompatActivity {
                                 Toast.makeText(getApplicationContext(),"이미 주인이 등록되었습니다.",Toast.LENGTH_SHORT).show();
                             }
                             else{
+                                dialog=ProgressDialog.show(AuthStoreActivity.this,"","데이터 확인중...",true);
                                 Toast.makeText(getApplicationContext(),"인증되었습니다.",Toast.LENGTH_SHORT).show();
                                 final String storeName=(String)dataSnapshot.child("name").getValue();
                                 FirebaseDatabase.getInstance().getReference("인증코드").child(code).child("소유자").setValue(GlobalData.loginProfile.key);
-                                StoreData.store=new Store(storeName,false);
-                                FirebaseDatabase.getInstance().getReference("Store").child(storeName).setValue(StoreData.store);
-                                Intent intent=new Intent(getApplicationContext(),StoreInfoActivity.class);
-                                intent.putExtra("type","owner");
-                                startActivity(intent);
-                                finish();
+                                //TODO 이후 false로 전환
+                                FirebaseDatabase.getInstance().getReference("Store").child(storeName).addListenerForSingleValueEvent(new ValueEventListener() {
+                                    @Override
+                                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                                        dialog.cancel();
+                                        if(dataSnapshot.exists()){
+                                            StoreData.store=new Store(storeName,true);
+                                            dialog=ProgressDialog.show(AuthStoreActivity.this,"","데이터 가져오는중...",true);
+                                            while(StoreData.store==null);
+                                            dialog.cancel();
+                                            FirebaseDatabase.getInstance().getReference("Store").child(storeName).setValue(StoreData.store);
+                                            Intent intent=new Intent(getApplicationContext(),StoreInfoActivity.class);
+                                            intent.putExtra("type","owner");
+                                            startActivity(intent);
+                                            finish();
+                                        }
+                                        else{
+                                            StoreData.store=new Store(storeName,false);
+                                            FirebaseDatabase.getInstance().getReference("Store").child(storeName).setValue(StoreData.store);
+                                            Intent intent=new Intent(getApplicationContext(),StoreInfoActivity.class);
+                                            intent.putExtra("type","owner");
+                                            startActivity(intent);
+                                            finish();
+                                        }
+                                    }
+
+                                    @Override
+                                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                                    }
+                                });
                             }
                         }
                         else{

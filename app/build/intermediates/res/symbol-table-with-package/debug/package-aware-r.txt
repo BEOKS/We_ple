@@ -531,6 +531,7 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color editButtonColor
 color error_color_material
 color foreground_material_dark
 color foreground_material_light
@@ -965,9 +966,18 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id com_kakao_login
-id constraintLayout
+id constraintLayout2
 id container
 id contentPanel
+id content_addInfo_TextView
+id content_addinfo_layout
+id content_article_layout
+id content_descriptionEditText
+id content_edit_menu_button
+id content_hashTag_LinearLayout
+id content_info_edit_button
+id content_menuLayout
+id content_menuLinearLayout
 id coordinator
 id custom
 id customPanel
@@ -1008,6 +1018,7 @@ id format_deleteButton
 id format_editButton
 id format_statusTextView
 id format_storeNameTextView
+id fragment_layout
 id ghost_view
 id gone
 id groups
@@ -1020,6 +1031,7 @@ id guideline6
 id guideline7
 id home
 id homeAsUp
+id horizontalScrollView
 id hybrid
 id icon
 id icon_group
@@ -1117,7 +1129,6 @@ id search_src_text
 id search_voice_btn
 id seatSwitch
 id seatTextView
-id section_label
 id select_dialog_listview
 id setting_store_backButton
 id setting_store_name
@@ -1164,6 +1175,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
+id textView10
 id textView124124
 id textView2
 id textView3
@@ -1172,7 +1184,7 @@ id textView4
 id textView45
 id textView5
 id textView6
-id textView7
+id textView9
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1298,6 +1310,7 @@ layout popup_typeselect
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout store_content_view
 layout support_simple_spinner_dropdown_item
 menu activity_store_list_drawer
 menu menu_store_info
