@@ -220,12 +220,32 @@ public class StoreInfoActivity extends AppCompatActivity {
         allEditButton.setText("확인");
         cateEditButton.setVisibility(View.VISIBLE);
         editMainImageButton.setVisibility(View.VISIBLE);
+        if(isOwner){
+            ownerContentView.setEditable(ownerContentView.editText,true);
+            ownerContentView.menuEditButton.setVisibility(View.VISIBLE);
+            ownerContentView.addInfoEditButton.setVisibility(View.VISIBLE);
+        }
+        else{
+            wikiContentView.setEditable(wikiContentView.editText,true);
+            wikiContentView.menuEditButton.setVisibility(View.VISIBLE);
+            wikiContentView.addInfoEditButton.setVisibility(View.VISIBLE);
+        }
     }
     public void turnOFFeditMode(){
         isEditMode=false;
         allEditButton.setText("전체편집");
         cateEditButton.setVisibility(View.GONE);
         editMainImageButton.setVisibility(View.GONE);
+        if(isOwner){
+            ownerContentView.setEditable(ownerContentView.editText,false);
+            ownerContentView.menuEditButton.setVisibility(View.GONE);
+            ownerContentView.addInfoEditButton.setVisibility(View.GONE);
+        }
+        else{
+            wikiContentView.setEditable(wikiContentView.editText,false);
+            wikiContentView.menuEditButton.setVisibility(View.GONE);
+            wikiContentView.addInfoEditButton.setVisibility(View.GONE);
+        }
     }
     public static final int PICK_IMAGE = 1,EDIT_CATEGORY=2;
     @Override

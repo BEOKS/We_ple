@@ -66,6 +66,7 @@ public class StoreContentView extends LinearLayout {
             }
         });
         addInfoEditButton=findViewById(R.id.content_info_edit_button);
+        addInfoEditButton.setVisibility(GONE);
         addInfoEditButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
