@@ -973,6 +973,7 @@ id content_addInfo_TextView
 id content_addinfo_layout
 id content_article_layout
 id content_descriptionEditText
+id content_edit_hashTag_button
 id content_edit_menu_button
 id content_hashTag_LinearLayout
 id content_info_edit_button

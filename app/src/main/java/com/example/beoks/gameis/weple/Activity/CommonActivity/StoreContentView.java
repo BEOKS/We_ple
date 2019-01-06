@@ -23,7 +23,7 @@ public class StoreContentView extends LinearLayout {
     public EditText editText;
     public ConstraintLayout menuWindowLayout;
     public LinearLayout hashTagLayout,menuLinearLayout,articleLayout;
-    public Button menuEditButton,addInfoEditButton;
+    public Button hashTagEditButton,menuEditButton,addInfoEditButton;
     public TextView addInfoTextView;
 
     public StoreContentView(Context context, StoreContent storeContent) {
@@ -58,6 +58,13 @@ public class StoreContentView extends LinearLayout {
         if(storeContent.menus.size()==0){
             menuWindowLayout.setVisibility(GONE);
         }
+        hashTagEditButton=findViewById(R.id.content_edit_hashTag_button);
+        hashTagEditButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO 해쉬태그 변경창으로 이동
+            }
+        });
         menuEditButton=findViewById(R.id.content_edit_menu_button);
         menuEditButton.setOnClickListener(new OnClickListener() {
             @Override

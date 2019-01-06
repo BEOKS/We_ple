@@ -4,6 +4,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.support.annotation.NonNull;
 import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
@@ -35,6 +36,10 @@ import com.example.beoks.gameis.weple.DataClass.GlobalData;
 import com.example.beoks.gameis.weple.DataClass.Store.Store;
 import com.example.beoks.gameis.weple.DataClass.Store.StoreContent;
 import com.example.beoks.gameis.weple.R;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.io.InputStream;
 
@@ -185,6 +190,7 @@ public class StoreInfoActivity extends AppCompatActivity {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
                                     turnOnEditMode();
+                                    //TODO 역으로 내용저장
                                 }
                             });
                     builder.setNegativeButton("아니오",
@@ -224,11 +230,13 @@ public class StoreInfoActivity extends AppCompatActivity {
             ownerContentView.setEditable(ownerContentView.editText,true);
             ownerContentView.menuEditButton.setVisibility(View.VISIBLE);
             ownerContentView.addInfoEditButton.setVisibility(View.VISIBLE);
+            ownerContentView.hashTagEditButton.setVisibility(View.VISIBLE);
         }
         else{
             wikiContentView.setEditable(wikiContentView.editText,true);
             wikiContentView.menuEditButton.setVisibility(View.VISIBLE);
             wikiContentView.addInfoEditButton.setVisibility(View.VISIBLE);
+            wikiContentView.hashTagEditButton.setVisibility(View.VISIBLE);
         }
     }
     public void turnOFFeditMode(){
@@ -240,11 +248,13 @@ public class StoreInfoActivity extends AppCompatActivity {
             ownerContentView.setEditable(ownerContentView.editText,false);
             ownerContentView.menuEditButton.setVisibility(View.GONE);
             ownerContentView.addInfoEditButton.setVisibility(View.GONE);
+            ownerContentView.hashTagEditButton.setVisibility(View.GONE);
         }
         else{
             wikiContentView.setEditable(wikiContentView.editText,false);
             wikiContentView.menuEditButton.setVisibility(View.GONE);
             wikiContentView.addInfoEditButton.setVisibility(View.GONE);
+            wikiContentView.hashTagEditButton.setVisibility(View.GONE);
         }
     }
     public static final int PICK_IMAGE = 1,EDIT_CATEGORY=2;
