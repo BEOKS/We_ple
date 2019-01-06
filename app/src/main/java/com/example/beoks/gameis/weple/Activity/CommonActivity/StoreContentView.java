@@ -1,6 +1,7 @@
 package com.example.beoks.gameis.weple.Activity.CommonActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.support.constraint.ConstraintLayout;
 import android.view.LayoutInflater;
@@ -10,6 +11,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.beoks.gameis.weple.Activity.CommonActivity.EditActivity.TagEditActivity;
 import com.example.beoks.gameis.weple.Activity.StoreView.ArticleView;
 import com.example.beoks.gameis.weple.Activity.StoreView.MenuView;
 import com.example.beoks.gameis.weple.DataClass.Store.Article;
@@ -17,8 +19,11 @@ import com.example.beoks.gameis.weple.DataClass.Store.Menu;
 import com.example.beoks.gameis.weple.DataClass.Store.StoreContent;
 import com.example.beoks.gameis.weple.R;
 
+import java.util.ArrayList;
+
 public class StoreContentView extends LinearLayout {
     private StoreContent storeContent;
+    private Context context;
 
     public EditText editText;
     public ConstraintLayout menuWindowLayout;
@@ -29,6 +34,7 @@ public class StoreContentView extends LinearLayout {
     public StoreContentView(Context context, StoreContent storeContent) {
         super(context);
         setOrientation(LinearLayout.VERTICAL);
+        this.context=context;
         this.storeContent=storeContent;
         String inflaterService = Context.LAYOUT_INFLATER_SERVICE;
         LayoutInflater layoutInflater = (LayoutInflater) getContext().getSystemService(inflaterService);
@@ -63,6 +69,10 @@ public class StoreContentView extends LinearLayout {
             @Override
             public void onClick(View view) {
                 //TODO 해쉬태그 변경창으로 이동
+                Intent intent=new Intent(context,TagEditActivity.class);
+                intent.putStringArrayListExtra("hashTag", (ArrayList<String>) storeContent.hashTag);
+                context.startActivity(intent);
+
             }
         });
         menuEditButton=findViewById(R.id.content_edit_menu_button);
@@ -94,6 +104,13 @@ public class StoreContentView extends LinearLayout {
         editText.setCursorVisible(b);
         editText.setFocusable(b);
         editText.setFocusableInTouchMode(b);
+    }
+    public void updateHashTagList(){
+        hashTagLayout.removeAllViews();
+        for(String hashTag : storeContent.hashTag){
+            hashTagLayout.addView(new HashTagTextView(getContext(),hashTag));
+        }
+
     }
 }
 class HashTagTextView extends android.support.v7.widget.AppCompatTextView{

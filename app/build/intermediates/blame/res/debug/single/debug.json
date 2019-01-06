@@ -1600,6 +1600,10 @@
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4385f75c4af76465a1552f3bb418fa89\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tag_edit.xml.flat",
+        "source": "C:\\android\\We_ple3\\app\\src\\main\\res\\layout\\activity_tag_edit.xml"
+    },
+    {
         "merged": "C:\\android\\We_ple3\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\JAESEONG LEE\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\112d7805121793285f4a416d84d36a83\\res\\layout\\notification_action_tombstone.xml"
     },

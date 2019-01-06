@@ -1270,6 +1270,7 @@ layout activity_store_info
 layout activity_store_list
 layout activity_store_list2
 layout activity_store_list_store_format
+layout activity_tag_edit
 layout article_view
 layout card_view
 layout design_bottom_navigation_item
