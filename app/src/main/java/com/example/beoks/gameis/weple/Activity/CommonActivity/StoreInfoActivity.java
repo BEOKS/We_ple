@@ -233,10 +233,11 @@ public class StoreInfoActivity extends AppCompatActivity {
                     // 선택한 이미지에서 비트맵 생성
                     InputStream in = getContentResolver().openInputStream(data.getData());
                     Bitmap img = BitmapFactory.decodeStream(in);
-                    imageView.setImageBitmap(img);
                     in.close();
                     // 이미지 표시
                     imageView.setImageBitmap(img);
+                    //저장
+                    store.ownerContent.uploadMainImage(img);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -245,6 +246,12 @@ public class StoreInfoActivity extends AppCompatActivity {
         if(resultCode==EDIT_CATEGORY){
             if(StoreData.category!=null){
                 categoryTextView.setText(StoreData.category);
+                if(isOwner){
+                    store.ownerContent.category=StoreData.category;
+                }
+                else{
+                    store.wikiContent.category=StoreData.category;
+                }
             }
         }
     }

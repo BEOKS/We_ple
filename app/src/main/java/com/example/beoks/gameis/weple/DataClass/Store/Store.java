@@ -5,8 +5,12 @@ import android.util.Log;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -31,6 +35,17 @@ public class Store {
 
     }
 
+    public Store(String name,boolean isDownload){
+        if(isDownload){
+            syncData(0);
+        }
+        else{
+            this.name=name;
+            ownerContent.name=name;
+            wikiContent.name=name;
+        }
+    }
+
     public Store(String key, StoreContent wikiContent, StoreContent ownerContent) {
         this.key = key;
         this.wikiContent = wikiContent;
@@ -38,5 +53,33 @@ public class Store {
     }
     public void updateData(int temp){
         FirebaseDatabase.getInstance().getReference("Store").child(name).setValue(this);
+    }
+    public void syncData(int temp){
+        FirebaseDatabase.getInstance().getReference("Store").child(name).addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                Store store=dataSnapshot.getValue(Store.class);
+                key=store.key;
+                name=store.name;
+                wikiContent=store.wikiContent;
+                ownerContent=store.ownerContent;
+                simpleReview=store.simpleReview;
+                longReviewList=dataSnapshot.child("longReviewList").getValue(ArrayList.class);
+                likeCount=store.likeCount;
+                likeUser=dataSnapshot.child("likeUser").getValue(ArrayList.class);
+                ownerExist=store.ownerExist;
+                ownerKey=store.ownerKey;
+                waitingOn=store.waitingOn;
+                seatOn=store.seatOn;
+                seatNum=store.seatNum;
+                maxSeatNum=store.maxSeatNum;
+                waitInfoList=dataSnapshot.child("waitInfoListr").getValue(ArrayList.class);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
     }
 }

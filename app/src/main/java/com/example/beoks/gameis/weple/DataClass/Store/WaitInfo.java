@@ -5,7 +5,7 @@ public class WaitInfo {
     public int personNum;
     public String memo;
     public String status;
-    public final String WAITING="입장대기",COMPLETE="입장안료";
+    public final String WAITING="입장대기",COMPLETE="입장완료";
 
     public WaitInfo() {
 
